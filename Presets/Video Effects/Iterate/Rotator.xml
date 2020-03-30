@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="Rotator" uniqueId="sy13" className="Iterate" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<RenderPass name="Iterate" type="DryWetEffect" uniqueId="sy13" baseType="DryWetEffect">
+		<Params name="Params">
+			<Param name="Bypassed" default="0" value="0"/>
+			<ParamRange name="Opacity" default="1" value="1">
+				<BehaviourDouble name="BehaviourDouble">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</BehaviourDouble>
+			</ParamRange>
+		</Params>
+		<View name="View"/>
+		<RenderPass name="Iterate" type="FFGLEffect" uniqueId="sy13" baseType="Effect" dwType="Effect">
+			<Params name="Params">
+				<Param name="Bypassed" default="0" value="0"/>
+				<ParamRange name="TransformStrengt" default="1" value="1">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Iterations" default="0.30000001192092895508" value="0.33333333300000000943">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="StartOpacity" default="1" value="0.24742268000000000594">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="OpacityChange" default="0.5" value="0.5">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="TranslateX" default="0.5" value="0.5">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="TranslateY" default="0.5" value="0.5">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="TranslateZ" default="0.5" value="0.81099656399999997536">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="RotateX " default="0.5" value="0.34020618600000002152">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="RotateY " default="0.5" value="0.58762886599999997195">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="RotateZ " default="0.5" value="0.59793814400000000475">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Scale" default="0.5" value="0.5">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="DOpacityChange" default="0.5" value="0.42955326500000001744">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="DTranslateX" default="0.5" value="0.5">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="DTranslateY" default="0.5" value="0.5">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="DTranslateZ" default="0.5" value="0.48797250899999999874">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="DRotateX " default="0.5" value="0.25773195900000001046">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="DRotateY " default="0.5" value="0.61512027499999999414">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="DRotateZ " default="0.5" value="0.36426116800000002405">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="DScale " default="0.5" value="0.5">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="BlendMode" default="0" value="0.2508591070000000256">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="GRotateX" default="0.5" value="0.39862543000000000282">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="GRotateY" default="0.5" value="0.44329896899999998716">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="GRotateZ" default="0.5" value="0.94410730379968932358">
+					<DurationSource name="DurationSource" defaultDuration="5s" scale="1"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<PhaseSourceTimeline name="PhaseSourceTimeline" globalSpeedEnabled="0">
+						<Params name="Params">
+							<ParamRange name="Beats" default="4" value="4">
+								<ValueRange name="defaultRange" min="0.0078125" max="1048576"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="BPM" default="120" value="120">
+								<ValueRange name="defaultRange" min="20" max="500"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Speed" default="1" value="1">
+								<ValueRange name="defaultRange" min="0" max="10"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamChoice name="Syncmode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayDirection" default="1" value="2" storeChoices="0"/>
+							<ParamChoice name="PlayMode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayModeAway" default="0" value="0" storeChoices="0"/>
+						</Params>
+						<AdaptiveDuration name="AdaptiveDuration"/>
+						<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+					</PhaseSourceTimeline>
+				</ParamRange>
+				<Param name="Black BG" default="0" value="0"/>
+			</Params>
+			<FFGLPlugin name="FFGLPlugin" uniqueId="sy13" fileName="/Applications/Resolume Arena 6/plugins/vfx/SyzGL_Iterate.bundle/Contents/MacOS/SyzGL_Iterate"/>
+		</RenderPass>
+		<ChoosableMixer name="Mixer">
+			<Params name="Params">
+				<ParamChoice name="Blend Mode" default="67464115" value="67464114" storeChoices="0"/>
+			</Params>
+			<RenderPass name="Add" type="Add" uniqueId="A005" baseType="Mixer">
+				<Params name="Params">
+					<Param name="Bypassed" default="0" value="0"/>
+					<ParamRange name="Opacity" default="1" value="1">
+						<BehaviourDouble name="BehaviourDouble">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+						</BehaviourDouble>
+					</ParamRange>
+				</Params>
+			</RenderPass>
+		</ChoosableMixer>
+	</RenderPass>
+</Preset>
+

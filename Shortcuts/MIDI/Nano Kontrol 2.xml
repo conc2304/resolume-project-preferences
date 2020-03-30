@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MidiShortcutPreset name="Nano Kontrol 2" presetId="-1288392303">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<ShortcutManager name="MIDIShortcutManagerShortcuts">
+		<Shortcut name="Shortcut" uniqueId="1561370241315" paramNodeName="" behaviour="1032">
+			<ShortcutPath name="InputPath" path="/composition/selectedlayer/connectnextclip" translationType="8" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/selectedlayer/connectnextclip" translationType="8" allowedTranslationTypes="11"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075867312" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241337" paramNodeName="" behaviour="1032">
+			<ShortcutPath name="InputPath" path="/composition/select" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/select" translationType="1" allowedTranslationTypes="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075874224" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241349" paramNodeName="" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/1/solo" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/1/solo" translationType="1" allowedTranslationTypes="11"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075864240" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241331" paramNodeName="" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/dashboard/link1" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/dashboard/link1" translationType="1" allowedTranslationTypes="1"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075861936" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241295" paramNodeName="" behaviour="1032">
+			<ShortcutPath name="InputPath" path="/composition/selectprevdeck" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/selectprevdeck" translationType="1" allowedTranslationTypes="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075870896" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241325" paramNodeName="" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/2/master" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/2/master" translationType="1" allowedTranslationTypes="11"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075856304" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241317" paramNodeName="" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/3/solo" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/3/solo" translationType="1" allowedTranslationTypes="11"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075864752" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241313" paramNodeName="" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/2/dashboard/link1" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/2/dashboard/link1" translationType="1" allowedTranslationTypes="11"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075860400" value="0.55118110236220474452" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241341" paramNodeName="" behaviour="1032">
+			<ShortcutPath name="InputPath" path="/composition/selectnextdeck" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/selectnextdeck" translationType="1" allowedTranslationTypes="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075871152" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241327" paramNodeName="" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/3/bypassed" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/3/bypassed" translationType="1" allowedTranslationTypes="11"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075868848" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241319" paramNodeName="" behaviour="1032">
+			<ShortcutPath name="InputPath" path="/composition/connectprevcolumn" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/connectprevcolumn" translationType="1" allowedTranslationTypes="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075871664" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241335" paramNodeName="" behaviour="1032">
+			<ShortcutPath name="InputPath" path="/composition/selectedlayer/connectprevclip" translationType="8" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/selectedlayer/connectprevclip" translationType="8" allowedTranslationTypes="11"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075867056" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241303" paramNodeName="" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/1/dashboard/link1" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/1/dashboard/link1" translationType="1" allowedTranslationTypes="11"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075860144" value="0.21259842519685040463" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241297" paramNodeName="" behaviour="1032">
+			<ShortcutPath name="InputPath" path="/composition/layers/3/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/3/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/3/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/3/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075872944" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241301" paramNodeName="" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/1/bypassed" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/1/bypassed" translationType="1" allowedTranslationTypes="11"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075868336" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241307" paramNodeName="" behaviour="1032">
+			<ShortcutPath name="InputPath" path="/composition/connectnextcolumn" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/connectnextcolumn" translationType="1" allowedTranslationTypes="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075871920" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241343" paramNodeName="" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/2/bypassed" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/2/bypassed" translationType="1" allowedTranslationTypes="11"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075868592" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241347" paramNodeName="" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/2/solo" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/2/solo" translationType="1" allowedTranslationTypes="11"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075864496" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241305" paramNodeName="" behaviour="1032">
+			<ShortcutPath name="InputPath" path="/composition/layers/1/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/1/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/1/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/1/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075872432" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241311" paramNodeName="" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/bypassed" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/bypassed" translationType="1" allowedTranslationTypes="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075870128" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241299" paramNodeName="" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/1/master" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/1/master" translationType="1" allowedTranslationTypes="11"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075856048" value="1" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241321" paramNodeName="" behaviour="1032">
+			<ShortcutPath name="InputPath" path="/composition/layers/2/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/2/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/2/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/2/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075872688" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241345" paramNodeName="" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/master" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/master" translationType="1" allowedTranslationTypes="1"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075857840" value="1" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241339" paramNodeName="" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/3/master" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/3/master" translationType="1" allowedTranslationTypes="11"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075856560" value="0" numSteps="128"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1561370241309" paramNodeName="" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/3/dashboard/link1" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/3/dashboard/link1" translationType="1" allowedTranslationTypes="11"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075860656" value="0.25196850393700787052" numSteps="128"/>
+		</Shortcut>
+	</ShortcutManager>
+</MidiShortcutPreset>
+

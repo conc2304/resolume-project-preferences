@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="Lichtenstein" uniqueId="PARAM_SPACE_COLOR_PALETTE" className="ColorPalette" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<ColorPalette name="ColorPalette">
+		<Params name="Params">
+			<ParamChoice name="Colors" default="4278190335" value="4290236391" storeChoices="1">
+				<Choice name="0x3229adff 2" value="4289538354" enabled="1" active="1" shortName=""/>
+				<Choice name="0xbc0eff 2" value="4279107772" enabled="1" active="1" shortName=""/>
+				<Choice name="0xe7cfb7ff 2" value="4290236391" enabled="1" active="1" shortName=""/>
+				<Choice name="0xffec4ff 2" value="4278512895" enabled="1" active="1" shortName=""/>
+				<Choice name="0x919ff 2" value="4278780169" enabled="1" active="1" shortName=""/>
+			</ParamChoice>
+		</Params>
+	</ColorPalette>
+</Preset>
+

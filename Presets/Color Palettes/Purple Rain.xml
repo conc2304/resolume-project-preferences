@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="Purple Rain" uniqueId="PARAM_SPACE_COLOR_PALETTE" className="ColorPalette" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<ColorPalette name="ColorPalette">
+		<Params name="Params">
+			<ParamChoice name="Colors" default="4278190335" value="4290236391" storeChoices="1">
+				<Choice name="0x735bccff 2" value="4291582835" enabled="1" active="1" shortName=""/>
+				<Choice name="0x6650b4ff 2" value="4290007142" enabled="1" active="1" shortName=""/>
+				<Choice name="0x59449cff 2" value="4288431193" enabled="1" active="1" shortName=""/>
+				<Choice name="0x4b3984ff 2" value="4286855499" enabled="1" active="1" shortName=""/>
+				<Choice name="0x3e2d6cff 2" value="4285279550" enabled="1" active="1" shortName=""/>
+			</ParamChoice>
+		</Params>
+	</ColorPalette>
+</Preset>
+

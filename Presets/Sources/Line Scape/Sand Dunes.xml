@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="Sand Dunes" uniqueId="P204" className="LineScape" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<VideoSource storage="0" name="VideoSource" width="1920" height="1080" type="GeneratorVideoSource">
+		<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueId="RenderPassChain" baseType="RenderPassChain">
+			<Params name="Params">
+				<Param name="Bypassed" default="0" value="0"/>
+			</Params>
+		</RenderPass>
+		<RenderPass name="Line Scape" type="Line Scape" uniqueId="P204" baseType="Generator">
+			<Params name="Params">
+				<Param name="Bypassed" default="0" value="0"/>
+				<ParamRange name="Tilt" default="1" value="32.068638392857145902">
+					<ValueRange name="defaultRange" min="0" max="90"/>
+				</ParamRange>
+				<ParamRange name="Direction" default="0" value="180">
+					<ValueRange name="defaultRange" min="-180" max="180"/>
+				</ParamRange>
+				<ParamRange name="Position Y" default="0" value="0">
+					<ValueRange name="defaultRange" min="0" max="35"/>
+				</ParamRange>
+				<ParamRange name="Speed" default="1" value="0">
+					<ValueRange name="defaultRange" min="-3" max="3"/>
+				</ParamRange>
+				<ParamRange name="Height" default="15" value="8.7976996527777764356">
+					<ValueRange name="defaultRange" min="0" max="23"/>
+				</ParamRange>
+				<ParamRange name="Jagginess" default="0" value="0"/>
+				<ParamRange name="Wobble" default="0" value="0.64179687500000004441"/>
+				<ParamRange name="Attenuation" default="100" value="300">
+					<ValueRange name="defaultRange" min="10" max="300"/>
+				</ParamRange>
+				<ParamRange name="Line Width" default="0.30000001192092895508" value="4">
+					<ValueRange name="defaultRange" min="0.10000000000000000555" max="4"/>
+				</ParamRange>
+				<ParamRange name="Fuzzyness" default="0.5" value="0.7715587797619047894"/>
+				<ParamColor name="Color" channelmode="2" paletteEnabled="0" color="4294956172">
+					<Params name="Channels">
+						<ParamRange name="Red" default="1" value="0.54901963472366333008"/>
+						<ParamRange name="Green" default="1" value="0.8313725590705871582"/>
+						<ParamRange name="Blue" default="1" value="1"/>
+						<ParamRange name="Hue" default="0" value="0.56231886148452758789"/>
+						<ParamRange name="Saturation" default="0" value="0.45098036527633666992"/>
+						<ParamRange name="Brightness" default="1" value="1"/>
+						<ParamRange name="Alpha" default="1" value="1"/>
+					</Params>
+					<ColorPalette name="ColorPalette">
+						<Params name="Params">
+							<ParamChoice name="Colors" default="4278190335" value="4278190335" storeChoices="1">
+								<Choice name="Black" value="4278190080" enabled="1" active="1" shortName=""/>
+								<Choice name="Red" value="4278190335" enabled="1" active="1" shortName=""/>
+								<Choice name="Green" value="4278255360" enabled="1" active="1" shortName=""/>
+								<Choice name="Yellow" value="4278255615" enabled="1" active="1" shortName=""/>
+								<Choice name="50 Grey" value="4286545791" enabled="1" active="1" shortName=""/>
+								<Choice name="Blue" value="4294901760" enabled="1" active="1" shortName=""/>
+								<Choice name="Magenta" value="4294902015" enabled="1" active="1" shortName=""/>
+								<Choice name="Cyan" value="4294967040" enabled="1" active="1" shortName=""/>
+								<Choice name="White" value="4294967295" enabled="1" active="1" shortName=""/>
+							</ParamChoice>
+						</Params>
+					</ColorPalette>
+				</ParamColor>
+				<Param name="Show Knots" default="1" value="0"/>
+			</Params>
+		</RenderPass>
+	</VideoSource>
+</Preset>
+

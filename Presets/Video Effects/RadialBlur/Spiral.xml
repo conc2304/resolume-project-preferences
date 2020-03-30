@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="Spiral" uniqueId="sy03" className="RadialBlur" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<RenderPass name="RadialBlur" type="DryWetEffect" uniqueId="sy03" baseType="DryWetEffect">
+		<Params name="Params">
+			<Param name="Bypassed" default="0" value="0"/>
+			<ParamRange name="Opacity" default="1" value="1">
+				<BehaviourDouble name="BehaviourDouble">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</BehaviourDouble>
+			</ParamRange>
+		</Params>
+		<View name="View"/>
+		<RenderPass name="RadialBlur" type="FFGLEffect" uniqueId="sy03" baseType="Effect" dwType="Effect">
+			<Params name="Params">
+				<Param name="Bypassed" default="0" value="0"/>
+				<ParamRange name="Steps" default="0.30000001192092895508" value="0.30000001199999998258">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Distance" default="0.10000000149011611938" value="0.10000000100000000502">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Rotation" default="0.5" value="0.87043189399999998379">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<Param name="High Quality" default="0" value="0"/>
+				<Param name="Black BG" default="0" value="0"/>
+			</Params>
+			<FFGLPlugin name="FFGLPlugin" uniqueId="sy03" fileName="/Applications/Resolume Arena 6/plugins/vfx/SyzGL_RadialBlur.bundle/Contents/MacOS/SyzGL_RadialBlur"/>
+		</RenderPass>
+		<ChoosableMixer name="Mixer">
+			<Params name="Params">
+				<ParamChoice name="Blend Mode" default="67464115" value="67464114" storeChoices="0"/>
+			</Params>
+			<RenderPass name="Add" type="Add" uniqueId="A005" baseType="Mixer">
+				<Params name="Params">
+					<Param name="Bypassed" default="0" value="0"/>
+					<ParamRange name="Opacity" default="1" value="1">
+						<BehaviourDouble name="BehaviourDouble">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+						</BehaviourDouble>
+					</ParamRange>
+				</Params>
+			</RenderPass>
+		</ChoosableMixer>
+	</RenderPass>
+</Preset>
+

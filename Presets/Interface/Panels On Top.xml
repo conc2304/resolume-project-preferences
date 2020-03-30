@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout name="Layout">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<Params name="LayoutParams">
+		<Param name="Show Compositions" altName="Show Compositions" default="1" value="1"/>
+		<ParamChoice name="MonitorsLayout" default="1" value="1" storeChoices="0"/>
+		<Param name="Show Layer" altName="Show Layer" default="1" value="1"/>
+		<Param name="Show Clip" altName="Show Clip" default="1" value="1"/>
+		<Param name="Show Composition" altName="Show Composition" default="1" value="1"/>
+		<Param name="Show Group" altName="Show Group" default="0" value="0"/>
+		<Param name="Show Ableton Link" default="0" value="0"/>
+		<Param name="Show Audio Controls" default="1" value="1"/>
+		<Param name="Show Layer Transport Controls" default="0" value="0"/>
+		<Param name="Show Layer Transition Controls" default="0" value="0"/>
+		<Param name="Show Crossfader" default="1" value="1"/>
+		<Param name="Show Help" default="1" value="1"/>
+		<Param name="Show Panel Monitors" default="0" value="0"/>
+		<Param name="Show Dashboard" default="1" value="1"/>
+		<Param name="Show Autopilot" default="1" value="1"/>
+		<Param name="Show Cue Points" default="1" value="1"/>
+		<Param name="Show Beat Looper" default="1" value="1"/>
+		<Param name="Show FFT Gain" default="0" value="0"/>
+		<Param name="Show Monitor" altName="Show Monitor" default="1" value="1"/>
+		<Param name="Show Denon StageLinQ" default="0" value="0"/>
+		<Param name="Show Shortcuts" default="0" value="0"/>
+		<Param name="Show Effects" default="1" value="1"/>
+		<Param name="Show Sources" default="1" value="1"/>
+		<Param name="Show Slices" default="0" value="0"/>
+		<Param name="Show Files" default="1" value="1"/>
+		<Param name="Clip Monitor Fold" default="0" value="0"/>
+		<Param name="Layer Monitor Fold" default="0" value="0"/>
+		<Param name="Layer Group Monitor Fold" default="0" value="0"/>
+		<Param name="Composition Monitor Fold" default="0" value="0"/>
+		<Param name="ShowFileBrowserThumbnails" default="0" value="0"/>
+		<Param name="showClipTimeRemaining" default="0" value="0"/>
+	</Params>
+	<Structure>
+		<FlexContainer name="FlexContainer" panel_id="51" unhide_panel_id="-1" unhide_target_index="-1" removable="0" visible="1" width_min_type="2" width_max_type="2" width_desired_type="2" width_min="0" width_max="0" width_desired="0" height_min_type="2" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="0" type="0">
+			<FlexContainer name="FlexContainer" panel_id="50" unhide_panel_id="-1" unhide_target_index="-1" removable="0" visible="1" width_min_type="2" width_max_type="2" width_desired_type="2" width_min="0" width_max="0" width_desired="0" height_min_type="2" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="1" type="0">
+				<FlexContainer name="FlexContainer" panel_id="106" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="2" width_min="0" width_max="0" width_desired="0" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="0" type="0">
+					<FlexContainer name="FlexContainer" panel_id="111" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="0" width_max="0" width_desired="661" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="1" type="0">
+						<TabbedContainer name="TabbedContainer" panel_id="112" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="200" width_max="0" width_desired="200" height_min_type="0" height_max_type="2" height_desired_type="0" height_min="200" height_max="0" height_desired="200" orientation="1" type="1">
+							<Composition name="Composition" panel_id="-1" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="0" width_desired_type="0" width_min="200" width_max="10000" width_desired="200" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="200" height_max="10000" height_desired="200" type="3" content_type="3"/>
+							<Layer name="Layer" panel_id="-1" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="0" width_desired_type="0" width_min="200" width_max="10000" width_desired="200" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="200" height_max="10000" height_desired="200" type="3" content_type="1"/>
+						</TabbedContainer>
+					</FlexContainer>
+					<FlexContainer name="FlexContainer" panel_id="115" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="0" width_max="0" width_desired="805" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="1" type="0">
+						<TabbedContainer name="TabbedContainer" panel_id="116" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="200" width_max="0" width_desired="200" height_min_type="0" height_max_type="2" height_desired_type="0" height_min="200" height_max="0" height_desired="200" orientation="1" type="1">
+							<Monitor name="Monitor" panel_id="-1" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="0" width_desired_type="0" width_min="200" width_max="10000" width_desired="200" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="200" height_max="10000" height_desired="200" type="3" content_type="0"/>
+						</TabbedContainer>
+					</FlexContainer>
+					<FlexContainer name="FlexContainer" panel_id="117" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="0" width_max="0" width_desired="658" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="1" type="0">
+						<TabbedContainer name="TabbedContainer" panel_id="118" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="200" width_max="0" width_desired="200" height_min_type="0" height_max_type="2" height_desired_type="0" height_min="200" height_max="0" height_desired="200" orientation="1" type="1">
+							<Clip name="Clip" panel_id="-1" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="0" width_desired_type="0" width_min="200" width_max="10000" width_desired="200" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="200" height_max="10000" height_desired="200" type="3" content_type="2"/>
+						</TabbedContainer>
+					</FlexContainer>
+					<FlexContainer name="FlexContainer" panel_id="113" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="0" width_max="0" width_desired="425" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="1" type="0">
+						<TabbedContainer name="TabbedContainer" panel_id="114" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="200" width_max="0" width_desired="200" height_min_type="0" height_max_type="2" height_desired_type="0" height_min="200" height_max="0" height_desired="200" orientation="1" type="1">
+							<Files name="Files" panel_id="-1" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="0" width_desired_type="0" width_min="200" width_max="10000" width_desired="200" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="200" height_max="10000" height_desired="200" type="3" content_type="6"/>
+							<Compositions name="Compositions" panel_id="-1" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="0" width_desired_type="0" width_min="200" width_max="10000" width_desired="200" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="200" height_max="10000" height_desired="200" type="3" content_type="7"/>
+							<Sources name="Sources" panel_id="-1" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="0" width_desired_type="0" width_min="200" width_max="10000" width_desired="200" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="200" height_max="10000" height_desired="200" type="3" content_type="9"/>
+							<Effects name="Effects" panel_id="-1" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="0" width_desired_type="0" width_min="200" width_max="10000" width_desired="200" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="200" height_max="10000" height_desired="200" type="3" content_type="8"/>
+						</TabbedContainer>
+					</FlexContainer>
+				</FlexContainer>
+				<FlexContainer name="FlexContainer" panel_id="57" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="2" width_min="0" width_max="0" width_desired="0" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="0" type="0">
+					<LayersAndClips name="LayersAndClips" panel_id="-1" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="0" width_desired_type="0" width_min="200" width_max="10000" width_desired="200" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="200" height_max="10000" height_desired="200" type="3" content_type="14"/>
+				</FlexContainer>
+				<Toolbar name="Toolbar" panel_id="-1" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="0" width_desired_type="0" width_min="200" width_max="10000" width_desired="200" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="200" height_max="10000" height_desired="200" type="3" content_type="15"/>
+			</FlexContainer>
+		</FlexContainer>
+	</Structure>
+	<HiddenPanels>
+		<Shortcuts name="Shortcuts" panel_id="5" unhide_panel_id="114" unhide_target_index="4" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="2" width_min="290" width_max="0" width_desired="0" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="290" height_max="0" height_desired="0" type="3" content_type="5"/>
+		<Slices name="Slices" panel_id="16" unhide_panel_id="114" unhide_target_index="4" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="2" width_min="290" width_max="0" width_desired="0" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="290" height_max="0" height_desired="0" type="3" content_type="16"/>
+		<Group name="Group" panel_id="4" unhide_panel_id="112" unhide_target_index="1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="2" width_min="290" width_max="0" width_desired="0" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="290" height_max="0" height_desired="0" type="3" content_type="4"/>
+	</HiddenPanels>
+	<FoldStates>
+		<EffectListsPanelComponent name="EffectListsPanelComponent">
+			<RenderPassListComponent name="RenderPassListComponent">
+				<foldState>
+					<OPEN id="root"/>
+				</foldState>
+			</RenderPassListComponent>
+			<AudioEffectListComponent name="AudioEffectListComponent">
+				<foldState>
+					<OPEN id="root"/>
+				</foldState>
+			</AudioEffectListComponent>
+		</EffectListsPanelComponent>
+		<SourcesListPanelComponent name="SourcesListPanelComponent">
+			<SourcesListComponent name="SourcesListComponent">
+				<foldState>
+					<OPEN id="root">
+						<SELECTED id="/root/Generators/736772465707583394/Doe Maar"/>
+					</OPEN>
+				</foldState>
+			</SourcesListComponent>
+		</SourcesListPanelComponent>
+	</FoldStates>
+</Layout>
+

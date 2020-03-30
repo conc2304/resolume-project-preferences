@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="Doe Maar" uniqueId="736772465707583394" className="Checkered" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<VideoSource storage="0" name="VideoSource" width="1920" height="1080" type="GeneratorVideoSource">
+		<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueId="RenderPassChain" baseType="RenderPassChain">
+			<Params name="Params">
+				<Param name="Bypassed" default="0" value="0"/>
+			</Params>
+		</RenderPass>
+		<RenderPass name="Checkered" type="Checkered" uniqueId="736772465707583394" baseType="Generator">
+			<Params name="Params">
+				<Param name="Bypassed" default="0" value="0"/>
+				<ParamRange name="Num X" default="32" value="2">
+					<ValueRange name="defaultRange" min="1" max="100000"/>
+				</ParamRange>
+				<ParamRange name="Num Y" default="18" value="1">
+					<ValueRange name="defaultRange" min="1" max="100000"/>
+				</ParamRange>
+				<ParamColor name="Color 1" channelmode="2" paletteEnabled="0" color="4282449775">
+					<Params name="Channels">
+						<ParamRange name="Red" default="0" value="0.43529412150382995605"/>
+						<ParamRange name="Green" default="0" value="1"/>
+						<ParamRange name="Blue" default="0" value="0.2509804069995880127"/>
+						<ParamRange name="Hue" default="0" value="0.29232111573219299316"/>
+						<ParamRange name="Saturation" default="0" value="0.749019622802734375"/>
+						<ParamRange name="Brightness" default="0" value="1"/>
+						<ParamRange name="Alpha" default="1" value="1"/>
+					</Params>
+					<ColorPalette name="ColorPalette">
+						<Params name="Params">
+							<ParamChoice name="Colors" default="4278190335" value="4278190335" storeChoices="1">
+								<Choice name="Black" value="4278190080" enabled="1" active="1" shortName=""/>
+								<Choice name="Red" value="4278190335" enabled="1" active="1" shortName=""/>
+								<Choice name="Green" value="4278255360" enabled="1" active="1" shortName=""/>
+								<Choice name="Yellow" value="4278255615" enabled="1" active="1" shortName=""/>
+								<Choice name="50 Grey" value="4286545791" enabled="1" active="1" shortName=""/>
+								<Choice name="Blue" value="4294901760" enabled="1" active="1" shortName=""/>
+								<Choice name="Magenta" value="4294902015" enabled="1" active="1" shortName=""/>
+								<Choice name="Cyan" value="4294967040" enabled="1" active="1" shortName=""/>
+								<Choice name="White" value="4294967295" enabled="1" active="1" shortName=""/>
+							</ParamChoice>
+						</Params>
+					</ColorPalette>
+				</ParamColor>
+				<ParamColor name="Color 2" channelmode="2" paletteEnabled="0" color="4289659135">
+					<Params name="Channels">
+						<ParamRange name="Red" default="1" value="1"/>
+						<ParamRange name="Green" default="1" value="0"/>
+						<ParamRange name="Blue" default="1" value="0.68627452850341796875"/>
+						<ParamRange name="Hue" default="0" value="0.88562089204788208008"/>
+						<ParamRange name="Saturation" default="0" value="1"/>
+						<ParamRange name="Brightness" default="1" value="1"/>
+						<ParamRange name="Alpha" default="1" value="1"/>
+					</Params>
+					<ColorPalette name="ColorPalette">
+						<Params name="Params">
+							<ParamChoice name="Colors" default="4278190335" value="4278190335" storeChoices="1">
+								<Choice name="Black" value="4278190080" enabled="1" active="1" shortName=""/>
+								<Choice name="Red" value="4278190335" enabled="1" active="1" shortName=""/>
+								<Choice name="Green" value="4278255360" enabled="1" active="1" shortName=""/>
+								<Choice name="Yellow" value="4278255615" enabled="1" active="1" shortName=""/>
+								<Choice name="50 Grey" value="4286545791" enabled="1" active="1" shortName=""/>
+								<Choice name="Blue" value="4294901760" enabled="1" active="1" shortName=""/>
+								<Choice name="Magenta" value="4294902015" enabled="1" active="1" shortName=""/>
+								<Choice name="Cyan" value="4294967040" enabled="1" active="1" shortName=""/>
+								<Choice name="White" value="4294967295" enabled="1" active="1" shortName=""/>
+							</ParamChoice>
+						</Params>
+					</ColorPalette>
+				</ParamColor>
+			</Params>
+		</RenderPass>
+	</VideoSource>
+</Preset>
+

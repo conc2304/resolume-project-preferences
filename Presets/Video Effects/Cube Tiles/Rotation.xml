@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="Rotation" uniqueId="A117" className="CubeTiles" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<RenderPass storage="0" name="CubeTiles" type="DryWetEffect" uniqueId="A117" baseType="DryWetEffect">
+		<Params name="Params">
+			<Param name="Bypassed" altName="Bypass" default="0" value="0"/>
+			<ParamRange name="Opacity" default="1" value="1">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="minMax" min="0" max="1"/>
+				<ValueRange name="startStop" min="0" max="1"/>
+			</ParamRange>
+		</Params>
+		<View name="View"/>
+		<RenderPass name="CubeTiles" type="CubeTiles" uniqueId="A117" baseType="Effect" dwType="Effect">
+			<Params name="Params">
+				<Param name="Bypassed" altName="Bypass" default="0" value="0"/>
+				<ParamRange name="Resolution" default="0.30000001192092895508" value="1">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Zoom" default="0.75" value="0.76581101190476186247">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.76581101190476186247"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Amount" default="0.5" value="1">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Rotate X" default="0.60000002384185791016" value="0.69964664300000001251">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.69964664300000001251"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Rotate Y" default="0.60000002384185791016" value="0.54063604200000003885">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.54063604200000003885"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Rotate Z" default="0.5" value="0.34782123059555725142">
+					<DurationSource name="DurationSource" defaultDuration="5s" scale="1"/>
+					<PhaseSourceTimeline name="PhaseSourceTimeline" phase="0.34782123059555725142">
+						<Params name="Params">
+							<ParamRange name="Speed" default="1" value="1">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.25"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0" max="10"/>
+								<ValueRange name="range" min="0" max="10"/>
+								<ValueRange name="startStop" min="0" max="10"/>
+							</ParamRange>
+							<ParamRange name="Multiplier" altName="Speed" default="1" value="1">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0" max="16"/>
+								<ValueRange name="range" min="0" max="16"/>
+								<ValueRange name="startStop" min="0" max="16"/>
+							</ParamRange>
+							<ParamRange name="Interval" default="0.5" value="0.5">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.10000000000000000555"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0" max="5"/>
+								<ValueRange name="minMax" min="0" max="5"/>
+								<ValueRange name="startStop" min="0" max="5"/>
+							</ParamRange>
+							<ParamRange name="Max Distance" altName="Distance" default="2" value="2">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0" max="5"/>
+								<ValueRange name="range" min="0" max="5"/>
+								<ValueRange name="startStop" min="0" max="5"/>
+							</ParamRange>
+							<ParamChoice name="PlayDirection" default="1" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayMode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayModeAway" default="0" value="0" storeChoices="0"/>
+							<Param name="DurationIsScalable" altName="Duration Changes With In &amp; Out Points" default="1" value="1"/>
+						</Params>
+						<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+					</PhaseSourceTimeline>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Num Cubes" default="0" value="0">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<Param name="Black BG" default="0" value="0"/>
+			</Params>
+		</RenderPass>
+		<ChoosableMixer name="Mixer">
+			<Params name="Params">
+				<ParamChoice name="Blend Mode" default="67464115" value="67464114" storeChoices="0"/>
+			</Params>
+			<RenderPass name="Add" type="Add" uniqueId="A005" baseType="Mixer">
+				<Params name="Params">
+					<Param name="Bypassed" altName="Bypass" default="0" value="0"/>
+					<ParamRange name="Opacity" default="1" value="1">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+						<BehaviourDouble name="BehaviourDouble"/>
+						<ValueRange name="minMax" min="0" max="1"/>
+						<ValueRange name="startStop" min="0" max="1"/>
+					</ParamRange>
+				</Params>
+			</RenderPass>
+		</ChoosableMixer>
+	</RenderPass>
+</Preset>
+

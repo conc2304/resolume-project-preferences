@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="Spikes" uniqueId="sy05" className="Ripples" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<RenderPass name="Ripples" type="DryWetEffect" uniqueId="sy05" baseType="DryWetEffect">
+		<Params name="Params">
+			<Param name="Bypassed" default="0" value="0"/>
+			<ParamRange name="Opacity" default="1" value="1">
+				<BehaviourDouble name="BehaviourDouble">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</BehaviourDouble>
+			</ParamRange>
+		</Params>
+		<View name="View"/>
+		<RenderPass name="Ripples" type="FFGLEffect" uniqueId="sy05" baseType="Effect" dwType="Effect">
+			<Params name="Params">
+				<Param name="Bypassed" default="0" value="0"/>
+				<ParamRange name="Frequency H" default="0.20000000298023223877" value="1">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Amplitude H" default="0.5" value="1">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Frequency V" default="0.20000000298023223877" value="1">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Amplitude V" default="0.5" value="0.6578073089999999512">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Amplitude Both" default="1" value="1">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Phase" default="0" value="0.078319648215008141889">
+					<DurationSource name="DurationSource" defaultDuration="5s" scale="1"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<PhaseSourceTimeline name="PhaseSourceTimeline" globalSpeedEnabled="0">
+						<Params name="Params">
+							<ParamRange name="Beats" default="4" value="4">
+								<ValueRange name="defaultRange" min="0.0078125" max="1048576"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="BPM" default="120" value="120">
+								<ValueRange name="defaultRange" min="20" max="500"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Speed" default="1" value="5.3671608800000001338">
+								<ValueRange name="defaultRange" min="0" max="10"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamChoice name="Syncmode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayDirection" default="1" value="2" storeChoices="0"/>
+							<ParamChoice name="PlayMode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayModeAway" default="0" value="0" storeChoices="0"/>
+						</Params>
+						<AdaptiveDuration name="AdaptiveDuration"/>
+						<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+					</PhaseSourceTimeline>
+				</ParamRange>
+				<Param name="Black BG" default="0" value="0"/>
+			</Params>
+			<FFGLPlugin name="FFGLPlugin" uniqueId="sy05" fileName="/Applications/Resolume Arena 6/plugins/vfx/SyzGL_Ripples.bundle/Contents/MacOS/SyzGL_Ripples"/>
+		</RenderPass>
+		<ChoosableMixer name="Mixer">
+			<Params name="Params">
+				<ParamChoice name="Blend Mode" default="67464115" value="67464114" storeChoices="0"/>
+			</Params>
+			<RenderPass name="Add" type="Add" uniqueId="A005" baseType="Mixer">
+				<Params name="Params">
+					<Param name="Bypassed" default="0" value="0"/>
+					<ParamRange name="Opacity" default="1" value="1">
+						<BehaviourDouble name="BehaviourDouble">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+						</BehaviourDouble>
+					</ParamRange>
+				</Params>
+			</RenderPass>
+		</ChoosableMixer>
+	</RenderPass>
+</Preset>
+

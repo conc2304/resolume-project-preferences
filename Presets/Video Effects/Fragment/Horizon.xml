@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="Horizon" uniqueId="sy08" className="Fragment" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<RenderPass storage="0" name="Fragment" type="DryWetEffect" uniqueId="sy08" baseType="DryWetEffect">
+		<Params name="Params">
+			<Param name="Bypassed" altName="Bypass" default="0" value="0"/>
+			<ParamRange name="Opacity" default="1" value="1">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="minMax" min="0" max="1"/>
+				<ValueRange name="startStop" min="0" max="1"/>
+			</ParamRange>
+		</Params>
+		<View name="View"/>
+		<RenderPass name="Fragment" type="Fragment" uniqueId="sy08" baseType="Effect" dwType="Effect">
+			<Params name="Params">
+				<Param name="Bypassed" altName="Bypass" default="0" value="0"/>
+				<ParamRange name="Fragments" default="0.30000001192092895508" value="0.2017937220000000087">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.2017937220000000087"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Distance" default="0.33000001311302185059" value="0.41479820600000000264">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.41479820600000000264"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Rotation" default="0" value="0.402884800599514592">
+					<DurationSource name="DurationSource" defaultDuration="5s" scale="1"/>
+					<PhaseSourceTimeline name="PhaseSourceTimeline" phase="0.402884800599514592">
+						<Params name="Params">
+							<ParamRange name="Speed" default="1" value="1">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.25"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0" max="10"/>
+								<ValueRange name="range" min="0" max="10"/>
+								<ValueRange name="startStop" min="0" max="10"/>
+							</ParamRange>
+							<ParamRange name="Multiplier" altName="Speed" default="1" value="1">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0" max="16"/>
+								<ValueRange name="range" min="0" max="16"/>
+								<ValueRange name="startStop" min="0" max="16"/>
+							</ParamRange>
+							<ParamRange name="Interval" default="0.5" value="0.5">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.10000000000000000555"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0" max="5"/>
+								<ValueRange name="minMax" min="0" max="5"/>
+								<ValueRange name="startStop" min="0" max="5"/>
+							</ParamRange>
+							<ParamRange name="Max Distance" altName="Distance" default="2" value="2">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.4000000000000000222"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0" max="5"/>
+								<ValueRange name="range" min="0" max="5"/>
+								<ValueRange name="startStop" min="0" max="5"/>
+							</ParamRange>
+							<ParamChoice name="PlayDirection" default="1" value="2" storeChoices="0"/>
+							<ParamChoice name="PlayMode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayModeAway" default="0" value="0" storeChoices="0"/>
+							<Param name="DurationIsScalable" altName="Duration Changes With In &amp; Out Points" default="1" value="1"/>
+						</Params>
+						<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+					</PhaseSourceTimeline>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="FragRotationX" default="0.5" value="0.75336322899999996761">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.75336322899999996761"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="FragRotationY" default="0.5" value="0.5">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="FragRotationZ" default="0.5" value="0.5">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="FragScale" default="0.5" value="1">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="CompositeOpacity" default="0.5" value="0.75">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.75"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<Param name="Black BG" default="1" value="1"/>
+			</Params>
+		</RenderPass>
+		<ChoosableMixer name="Mixer">
+			<Params name="Params">
+				<ParamChoice name="Blend Mode" default="67464115" value="67464114" storeChoices="0"/>
+			</Params>
+			<RenderPass name="Add" type="Add" uniqueId="A005" baseType="Mixer">
+				<Params name="Params">
+					<Param name="Bypassed" altName="Bypass" default="0" value="0"/>
+					<ParamRange name="Opacity" default="1" value="1">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+						<BehaviourDouble name="BehaviourDouble"/>
+						<ValueRange name="minMax" min="0" max="1"/>
+						<ValueRange name="startStop" min="0" max="1"/>
+					</ParamRange>
+				</Params>
+			</RenderPass>
+		</ChoosableMixer>
+	</RenderPass>
+</Preset>
+

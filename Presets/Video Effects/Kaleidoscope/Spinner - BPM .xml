@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="Spinner - BPM " uniqueId="sy02" className="Kaleidoscope" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<RenderPass storage="0" name="Kaleidoscope" type="DryWetEffect" uniqueId="sy02" baseType="DryWetEffect">
+		<Params name="Params">
+			<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+			<ParamRange name="Opacity" T="DOUBLE" default="1" value="1">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+				<BehaviourDouble name="BehaviourDouble"/>
+				<ValueRange name="defaultRange" min="0" max="1"/>
+				<ValueRange name="minMax" min="0" max="1"/>
+				<ValueRange name="startStop" min="0" max="1"/>
+			</ParamRange>
+		</Params>
+		<View name="View" folded="1"/>
+		<RenderPass name="Kaleidoscope" type="Kaleidoscope" uniqueId="sy02" baseType="Effect" dwType="Effect">
+			<Params name="Params">
+				<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+				<ParamRange name="Angles" T="DOUBLE" default="0.30000001192092895508" value="0.39724022832817335038">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.39724022832817335038"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Rotation" T="DOUBLE" default="0" value="0.87732749376722640733">
+					<DurationSource name="DurationSource" defaultDuration="4b" userDuration="8" scale="1"/>
+					<PhaseSourceTimeline name="PhaseSourceTimeline" phase="0.87732749376722640733" defaultMillisecondsDuration="5000" defaultBeatsDuration="4">
+						<Params name="Params">
+							<ParamRange name="Speed" T="DOUBLE" default="1" value="1">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.25"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0" max="10"/>
+								<ValueRange name="range" min="0" max="10"/>
+								<ValueRange name="startStop" min="0" max="10"/>
+							</ParamRange>
+							<ParamRange name="Multiplier" altName="Speed" T="DOUBLE" default="1" value="1">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0" max="16"/>
+								<ValueRange name="range" min="0" max="16"/>
+								<ValueRange name="startStop" min="0" max="16"/>
+							</ParamRange>
+							<ParamRange name="Interval" T="DOUBLE" default="1" value="1">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0.125" max="8"/>
+								<ValueRange name="range" min="0.125" max="8"/>
+								<ValueRange name="startStop" min="0.125" max="8"/>
+							</ParamRange>
+							<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="8" value="4">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0" max="8"/>
+								<ValueRange name="range" min="0" max="8"/>
+								<ValueRange name="startStop" min="0" max="8"/>
+							</ParamRange>
+							<ParamChoice name="PlayDirection" T="INT32" default="2" value="2" storeChoices="0"/>
+							<ParamChoice name="PlayMode" T="INT32" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayModeAway" T="INT32" default="0" value="0" storeChoices="0"/>
+							<Param name="DurationIsScalable" altName="Duration Changes With In &amp; Out Points" T="BOOL" default="1" value="0"/>
+						</Params>
+						<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+					</PhaseSourceTimeline>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Zoom" T="DOUBLE" default="0.5" value="0.70183097910216718507">
+					<PhaseSourceStatic name="PhaseSourceStatic" phase="0.70183097910216718507"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<ParamRange name="Input Rotation" T="DOUBLE" default="0" value="0.061336253116386810214">
+					<DurationSource name="DurationSource" defaultDuration="4b" userDuration="16" scale="1"/>
+					<PhaseSourceTimeline name="PhaseSourceTimeline" phase="0.061336253116386810214" defaultMillisecondsDuration="5000" defaultBeatsDuration="4">
+						<Params name="Params">
+							<ParamRange name="Speed" T="DOUBLE" default="1" value="1">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.25"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0" max="10"/>
+								<ValueRange name="range" min="0" max="10"/>
+								<ValueRange name="startStop" min="0" max="10"/>
+							</ParamRange>
+							<ParamRange name="Multiplier" altName="Speed" T="DOUBLE" default="1" value="1">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0" max="16"/>
+								<ValueRange name="range" min="0" max="16"/>
+								<ValueRange name="startStop" min="0" max="16"/>
+							</ParamRange>
+							<ParamRange name="Interval" T="DOUBLE" default="1" value="1">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.5"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0.125" max="8"/>
+								<ValueRange name="range" min="0.125" max="8"/>
+								<ValueRange name="startStop" min="0.125" max="8"/>
+							</ParamRange>
+							<ParamRange name="Max Distance" altName="Distance" T="DOUBLE" default="16" value="4">
+								<PhaseSourceStatic name="PhaseSourceStatic" phase="0.25"/>
+								<BehaviourDouble name="BehaviourDouble"/>
+								<ValueRange name="defaultRange" min="0" max="16"/>
+								<ValueRange name="range" min="0" max="16"/>
+								<ValueRange name="startStop" min="0" max="16"/>
+							</ParamRange>
+							<ParamChoice name="PlayDirection" T="INT32" default="2" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayMode" T="INT32" default="0" value="1" storeChoices="0"/>
+							<ParamChoice name="PlayModeAway" T="INT32" default="0" value="0" storeChoices="0"/>
+							<Param name="DurationIsScalable" altName="Duration Changes With In &amp; Out Points" T="BOOL" default="1" value="0"/>
+						</Params>
+						<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+					</PhaseSourceTimeline>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<ValueRange name="defaultRange" min="0" max="1"/>
+					<ValueRange name="minMax" min="0" max="1"/>
+					<ValueRange name="startStop" min="0" max="1"/>
+				</ParamRange>
+				<Param name="Black BG" T="BOOL" default="0" value="0"/>
+			</Params>
+			<View name="View"/>
+		</RenderPass>
+		<ChoosableMixer name="Mixer">
+			<Params name="Params">
+				<ParamChoice name="Blend Mode" T="UINT64" default="67464115" value="67464115" storeChoices="0"/>
+			</Params>
+			<RenderPass name="Alpha" type="Alpha" uniqueId="A006" baseType="Mixer">
+				<Params name="Params">
+					<Param name="Bypassed" altName="Bypass" T="BOOL" default="0" value="0"/>
+					<ParamRange name="Opacity" T="DOUBLE" default="1" value="1">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="1"/>
+						<BehaviourDouble name="BehaviourDouble"/>
+						<ValueRange name="defaultRange" min="0" max="1"/>
+						<ValueRange name="minMax" min="0" max="1"/>
+						<ValueRange name="startStop" min="0" max="1"/>
+					</ParamRange>
+				</Params>
+			</RenderPass>
+		</ChoosableMixer>
+	</RenderPass>
+</Preset>
+

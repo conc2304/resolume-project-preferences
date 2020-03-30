@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="Acid Trip" uniqueId="A036" className="ShiftRGBMixer" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<RenderPass name="ShiftRGB" type="DryWetEffect" uniqueId="A153" baseType="DryWetEffect">
+		<Params name="Params">
+			<Param name="Bypassed" default="0" value="0"/>
+			<ParamRange name="Opacity" default="1" value="1">
+				<BehaviourDouble name="BehaviourDouble">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</BehaviourDouble>
+			</ParamRange>
+		</Params>
+		<View name="View"/>
+		<RenderPass name="ShiftRGB" type="ShiftRGB" uniqueId="A153" baseType="Effect" dwType="Effect">
+			<Params name="Params">
+				<Param name="Bypassed" default="0" value="0"/>
+				<ParamRange name="Distance" default="1" value="1">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamChoice name="Mode" default="0" value="5" storeChoices="0"/>
+				<ParamRange name="R" default="0" value="0.082878064000212081641">
+					<DurationSource name="DurationSource" defaultDuration="5s" scale="0.20304568500000003128"/>
+					<ValueRange name="defaultRange" min="-1" max="1"/>
+					<ValueRange name="startStop" min="-0.18274111599999998123" max="0.22335025400000008133"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<PhaseSourceTimeline name="PhaseSourceTimeline" globalSpeedEnabled="0">
+						<Params name="Params">
+							<ParamRange name="Beats" default="4" value="4">
+								<ValueRange name="defaultRange" min="0.0078125" max="1048576"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="BPM" default="120" value="120">
+								<ValueRange name="defaultRange" min="20" max="500"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Speed" default="1" value="1">
+								<ValueRange name="defaultRange" min="0" max="10"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamChoice name="Syncmode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayDirection" default="1" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayMode" default="0" value="1" storeChoices="0"/>
+							<ParamChoice name="PlayModeAway" default="0" value="0" storeChoices="0"/>
+						</Params>
+						<AdaptiveDuration name="AdaptiveDuration"/>
+						<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+					</PhaseSourceTimeline>
+				</ParamRange>
+				<ParamRange name="G" default="0" value="-0.018644775999788282261">
+					<DurationSource name="DurationSource" defaultDuration="5s" scale="0.19543147199999999497"/>
+					<ValueRange name="defaultRange" min="-1" max="1"/>
+					<ValueRange name="startStop" min="-0.17766497400000003104" max="0.2131979699999999589"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<PhaseSourceTimeline name="PhaseSourceTimeline" globalSpeedEnabled="0">
+						<Params name="Params">
+							<ParamRange name="Beats" default="4" value="4">
+								<ValueRange name="defaultRange" min="0.0078125" max="1048576"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="BPM" default="120" value="120">
+								<ValueRange name="defaultRange" min="20" max="500"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Speed" default="1" value="1">
+								<ValueRange name="defaultRange" min="0" max="10"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamChoice name="Syncmode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayDirection" default="1" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayMode" default="0" value="1" storeChoices="0"/>
+							<ParamChoice name="PlayModeAway" default="0" value="0" storeChoices="0"/>
+						</Params>
+						<AdaptiveDuration name="AdaptiveDuration"/>
+						<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+					</PhaseSourceTimeline>
+				</ParamRange>
+				<ParamRange name="B" default="0" value="0.22169045799978709388">
+					<DurationSource name="DurationSource" defaultDuration="5s" scale="0.18527918800000003907"/>
+					<ValueRange name="defaultRange" min="-1" max="1"/>
+					<ValueRange name="startStop" min="-0.13197969600000003521" max="0.23857868000000004294"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<PhaseSourceTimeline name="PhaseSourceTimeline" globalSpeedEnabled="0">
+						<Params name="Params">
+							<ParamRange name="Beats" default="4" value="4">
+								<ValueRange name="defaultRange" min="0.0078125" max="1048576"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="BPM" default="120" value="120">
+								<ValueRange name="defaultRange" min="20" max="500"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Speed" default="1" value="1">
+								<ValueRange name="defaultRange" min="0" max="10"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamChoice name="Syncmode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayDirection" default="1" value="2" storeChoices="0"/>
+							<ParamChoice name="PlayMode" default="0" value="1" storeChoices="0"/>
+							<ParamChoice name="PlayModeAway" default="0" value="0" storeChoices="0"/>
+						</Params>
+						<AdaptiveDuration name="AdaptiveDuration"/>
+						<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+					</PhaseSourceTimeline>
+				</ParamRange>
+				<Param name="Black BG" default="0" value="0"/>
+			</Params>
+		</RenderPass>
+		<ChoosableMixer name="Mixer">
+			<Params name="Params">
+				<ParamChoice name="Blend Mode" default="67464115" value="67464114" storeChoices="0"/>
+			</Params>
+			<RenderPass name="Add" type="Add" uniqueId="A005" baseType="Mixer">
+				<Params name="Params">
+					<Param name="Bypassed" default="0" value="0"/>
+					<ParamRange name="Opacity" default="1" value="1">
+						<BehaviourDouble name="BehaviourDouble">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+						</BehaviourDouble>
+					</ParamRange>
+				</Params>
+			</RenderPass>
+		</ChoosableMixer>
+	</RenderPass>
+</Preset>
+

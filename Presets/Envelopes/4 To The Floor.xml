@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="4 To The Floor" uniqueId="MOD_ENVELOPE" className="Envelope" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<ModifierEnvelope name="ModifierEnvelope" altName="Envelope">
+		<points>
+			<point x="0" y="1" curve="33"/>
+			<point x="0.24999999999999997224" y="0" curve="3"/>
+			<point x="0.24999999999999997224" y="1" curve="1"/>
+			<point x="0.50000000000000011102" y="0" curve="3"/>
+			<point x="0.50000000000000011102" y="1" curve="1"/>
+			<point x="0.75" y="0" curve="3"/>
+			<point x="0.75190114068441049611" y="1" curve="1"/>
+			<point x="1" y="0" curve="3"/>
+		</points>
+	</ModifierEnvelope>
+</Preset>
+

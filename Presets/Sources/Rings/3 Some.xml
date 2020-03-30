@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="3 Some" uniqueId="8642267115" className="Rings" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<VideoSource storage="0" name="VideoSource" width="1920" height="1080" type="GeneratorVideoSource">
+		<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueId="RenderPassChain" baseType="RenderPassChain">
+			<Params name="Params">
+				<Param name="Bypassed" default="0" value="0"/>
+			</Params>
+		</RenderPass>
+		<RenderPass name="Rings" type="Rings" uniqueId="8642267115" baseType="Generator">
+			<Params name="Params">
+				<Param name="Bypassed" default="0" value="0"/>
+				<ParamRange name="Num Rings" default="10" value="3">
+					<ValueRange name="defaultRange" min="1" max="50"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Size" default="1" value="0.31778796487603305776">
+					<ValueRange name="defaultRange" min="0.050000000000000002776" max="4"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Spacing" default="0.2999999999999999889" value="1.786813985020661244">
+					<ValueRange name="defaultRange" min="0.10000000000000000555" max="3"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Line Width" altName="Width" default="0.2000000000000000111" value="1.8286045648243802741">
+					<ValueRange name="defaultRange" min="0.010000000000000000208" max="3"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamChoice name="Style" default="2" value="0" storeChoices="0"/>
+				<ParamRange name="Gap" default="60" value="180">
+					<ValueRange name="defaultRange" min="0" max="360"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Rotation" default="0" value="-24.967977397407082663">
+					<DurationSource name="DurationSource" defaultDuration="5s" scale="1"/>
+					<ValueRange name="defaultRange" min="-180" max="180"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<PhaseSourceTimeline name="PhaseSourceTimeline" globalSpeedEnabled="0">
+						<Params name="Params">
+							<ParamRange name="Beats" default="4" value="4">
+								<ValueRange name="defaultRange" min="0.0078125" max="1048576"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="BPM" default="120" value="120">
+								<ValueRange name="defaultRange" min="20" max="500"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Speed" default="1" value="1.5107326278005244191">
+								<ValueRange name="defaultRange" min="0" max="10"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamChoice name="Syncmode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayDirection" default="1" value="2" storeChoices="0"/>
+							<ParamChoice name="PlayMode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayModeAway" default="0" value="0" storeChoices="0"/>
+						</Params>
+						<AdaptiveDuration name="AdaptiveDuration"/>
+						<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+					</PhaseSourceTimeline>
+				</ParamRange>
+				<ParamRange name="Rotation Step" altName="Step" default="60" value="60">
+					<ValueRange name="defaultRange" min="0" max="180"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<Param name="Rotation Alternate" altName="Alternate" default="1" value="1"/>
+				<ParamColor name="Color 1" channelmode="2" paletteEnabled="0" color="4288755967">
+					<Params name="Channels">
+						<ParamRange name="Red" default="1" value="1">
+							<BehaviourDouble name="BehaviourDouble">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</BehaviourDouble>
+						</ParamRange>
+						<ParamRange name="Green" default="0.21960784494876861572" value="0.21960784494876861572">
+							<BehaviourDouble name="BehaviourDouble">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</BehaviourDouble>
+						</ParamRange>
+						<ParamRange name="Blue" default="0.63137257099151611328" value="0.63137257099151611328">
+							<BehaviourDouble name="BehaviourDouble">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</BehaviourDouble>
+						</ParamRange>
+						<ParamRange name="Hue" default="0.91206026077270507812" value="0.91206026077270507812">
+							<BehaviourDouble name="BehaviourDouble">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</BehaviourDouble>
+						</ParamRange>
+						<ParamRange name="Saturation" default="0.78039216995239257812" value="0.78039216995239257812">
+							<BehaviourDouble name="BehaviourDouble">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</BehaviourDouble>
+						</ParamRange>
+						<ParamRange name="Brightness" default="1" value="1">
+							<BehaviourDouble name="BehaviourDouble">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</BehaviourDouble>
+						</ParamRange>
+						<ParamRange name="Alpha" default="1" value="1">
+							<BehaviourDouble name="BehaviourDouble">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</BehaviourDouble>
+						</ParamRange>
+					</Params>
+					<ColorPalette name="ColorPalette">
+						<Params name="Params">
+							<ParamChoice name="Colors" default="4278190335" value="4278190335" storeChoices="1">
+								<Choice name="Black" value="4278190080" enabled="1" active="1" shortName=""/>
+								<Choice name="Red" value="4278190335" enabled="1" active="1" shortName=""/>
+								<Choice name="Green" value="4278255360" enabled="1" active="1" shortName=""/>
+								<Choice name="Yellow" value="4278255615" enabled="1" active="1" shortName=""/>
+								<Choice name="50 Grey" value="4286545791" enabled="1" active="1" shortName=""/>
+								<Choice name="Blue" value="4294901760" enabled="1" active="1" shortName=""/>
+								<Choice name="Magenta" value="4294902015" enabled="1" active="1" shortName=""/>
+								<Choice name="Cyan" value="4294967040" enabled="1" active="1" shortName=""/>
+								<Choice name="White" value="4294967295" enabled="1" active="1" shortName=""/>
+							</ParamChoice>
+						</Params>
+					</ColorPalette>
+				</ParamColor>
+				<ParamColor name="Color 2" channelmode="2" paletteEnabled="0" color="4294637568">
+					<Params name="Channels">
+						<ParamRange name="Red" default="0" value="0">
+							<BehaviourDouble name="BehaviourDouble">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</BehaviourDouble>
+						</ParamRange>
+						<ParamRange name="Green" default="0.97254902124404907227" value="0.97254902124404907227">
+							<BehaviourDouble name="BehaviourDouble">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</BehaviourDouble>
+						</ParamRange>
+						<ParamRange name="Blue" default="0.98039215803146362305" value="0.98039215803146362305">
+							<BehaviourDouble name="BehaviourDouble">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</BehaviourDouble>
+						</ParamRange>
+						<ParamRange name="Hue" default="0.50133329629898071289" value="0.50133329629898071289">
+							<BehaviourDouble name="BehaviourDouble">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</BehaviourDouble>
+						</ParamRange>
+						<ParamRange name="Saturation" default="1" value="1">
+							<BehaviourDouble name="BehaviourDouble">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</BehaviourDouble>
+						</ParamRange>
+						<ParamRange name="Brightness" default="0.98039215803146362305" value="0.98039215803146362305">
+							<BehaviourDouble name="BehaviourDouble">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</BehaviourDouble>
+						</ParamRange>
+						<ParamRange name="Alpha" default="1" value="1">
+							<BehaviourDouble name="BehaviourDouble">
+								<PhaseSourceStatic name="PhaseSourceStatic"/>
+							</BehaviourDouble>
+						</ParamRange>
+					</Params>
+					<ColorPalette name="ColorPalette">
+						<Params name="Params">
+							<ParamChoice name="Colors" default="4278190335" value="4278190335" storeChoices="1">
+								<Choice name="Black" value="4278190080" enabled="1" active="1" shortName=""/>
+								<Choice name="Red" value="4278190335" enabled="1" active="1" shortName=""/>
+								<Choice name="Green" value="4278255360" enabled="1" active="1" shortName=""/>
+								<Choice name="Yellow" value="4278255615" enabled="1" active="1" shortName=""/>
+								<Choice name="50 Grey" value="4286545791" enabled="1" active="1" shortName=""/>
+								<Choice name="Blue" value="4294901760" enabled="1" active="1" shortName=""/>
+								<Choice name="Magenta" value="4294902015" enabled="1" active="1" shortName=""/>
+								<Choice name="Cyan" value="4294967040" enabled="1" active="1" shortName=""/>
+								<Choice name="White" value="4294967295" enabled="1" active="1" shortName=""/>
+							</ParamChoice>
+						</Params>
+					</ColorPalette>
+				</ParamColor>
+			</Params>
+		</RenderPass>
+	</VideoSource>
+</Preset>
+

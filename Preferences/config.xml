@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Avenue>
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<Application name="Application" recentCompositions="/Users/joseconchello/Documents/Resolume Avenue/Compositions/jc test - no effect layer 2.avc
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/jc test - no effect layer.avc
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/jc test.avc
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/playing around v2.avc
+/Users/joseconchello/Desktop/Documents/Resolume Avenue/Compositions/playing around.avc
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/Example.avc" fileBrowserFavourites="/Users/joseconchello/Desktop/Documents/Visual Designs/vj_clips/DXV3
+/Users/joseconchello/Desktop/Documents/Visual Designs/vj_clips">
+		<Params name="Settings">
+			<Param name="CurrentCompositionFile" T="STRING" default="/Applications/Resolume Avenue/default/Example.avc" value="/Users/joseconchello/Documents/Resolume Avenue/Compositions/jc test - no effect layer 2.avc"/>
+			<ParamRange name="DefaultCompositionWidth" T="DOUBLE" default="1920" value="1920">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.019190191901919020911"/>
+			</ParamRange>
+			<ParamRange name="DefaultCompositionHeight" T="DOUBLE" default="1080" value="1080">
+				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.010790107901079010189"/>
+			</ParamRange>
+			<Param name="DefaultDeckCount" T="UINT32" default="3" value="3"/>
+			<Param name="DefaultLayerCount" T="UINT32" default="3" value="3"/>
+			<Param name="DefaultColumnCount" T="UINT32" default="9" value="9"/>
+			<ParamChoice name="Texture Path" default="TUP_DMA" value="TUP_DMA" storeChoices="0"/>
+			<Param name="LastFileBrowserDirectory" T="FILE" default="/" value="/Users/joseconchello/Desktop/Documents/Visual Designs/vj_clips/DXV3"/>
+		</Params>
+	</Application>
+	<VideoEngine name="VideoEngine"/>
+	<AudioEngine name="AudioEngine">
+		<AudioDeviceManager name="AudioDeviceManager">
+			<AudioDeviceManagerSettings name="AudioDeviceManagerSettings" channelsUseBitmask="1">
+				<Params name="Settings">
+					<Param name="FFT Input" T="UINT64" default="0" value="1"/>
+				</Params>
+				<Params name="Params">
+					<ParamRange name="FFTInputGain" T="DOUBLE" default="0" value="15.954000000000007731">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.83237500000000019806"/>
+					</ParamRange>
+				</Params>
+			</AudioDeviceManagerSettings>
+			<AudioDeviceSettings>
+				<DEVICESETUP deviceType="CoreAudio" audioOutputDeviceName="MacBook Pro Speakers" audioInputDeviceName="MacBook Pro Microphone" audioDeviceRate="48000" audioDeviceInChans="1" audioDeviceOutChans="11"/>
+			</AudioDeviceSettings>
+		</AudioDeviceManager>
+		<AudioPluginManager name="AudioPluginManager"/>
+	</AudioEngine>
+</Avenue>
+

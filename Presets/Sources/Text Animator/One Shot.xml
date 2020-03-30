@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="One Shot" uniqueId="11421072728336491440" className="TextGenerator" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<VideoSource storage="0" name="VideoSource" width="1920" height="1080" type="GeneratorVideoSource">
+		<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueId="RenderPassChain" baseType="RenderPassChain">
+			<Params name="Params">
+				<Param name="Bypassed" default="0" value="0"/>
+			</Params>
+		</RenderPass>
+		<RenderPass name="TextGenerator" type="TextGenerator" uniqueId="11421072728336491440" baseType="Generator">
+			<Params name="Params">
+				<Param name="Bypassed" default="0" value="0"/>
+				<ParamText name="Text" T="STRING" default="Resolume" value="Resolume">
+					<Params name="Params">
+						<Param name="Lines" T="STRING" default="Resolume" value="Resolume"/>
+					</Params>
+				</ParamText>
+				<ParamChoice name="Font" default="Arial Black" value="Arial Black" storeChoices="0"/>
+				<ParamChoice name="Style" default="Regular" value="Regular" storeChoices="0"/>
+				<ParamColor name="Color" channelmode="2" paletteEnabled="0" color="4294967295">
+					<Params name="Channels">
+						<ParamRange name="Red" default="1" value="1"/>
+						<ParamRange name="Green" default="1" value="1"/>
+						<ParamRange name="Blue" default="1" value="1"/>
+						<ParamRange name="Hue" default="0" value="0"/>
+						<ParamRange name="Saturation" default="0" value="0"/>
+						<ParamRange name="Brightness" default="1" value="1"/>
+						<ParamRange name="Alpha" default="1" value="1"/>
+					</Params>
+					<ColorPalette name="ColorPalette">
+						<Params name="Params">
+							<ParamChoice name="Colors" default="4278190335" value="4278190335" storeChoices="1">
+								<Choice name="Black" value="4278190080" enabled="1" active="1" shortName=""/>
+								<Choice name="Red" value="4278190335" enabled="1" active="1" shortName=""/>
+								<Choice name="Green" value="4278255360" enabled="1" active="1" shortName=""/>
+								<Choice name="Yellow" value="4278255615" enabled="1" active="1" shortName=""/>
+								<Choice name="50 Grey" value="4286545791" enabled="1" active="1" shortName=""/>
+								<Choice name="Blue" value="4294901760" enabled="1" active="1" shortName=""/>
+								<Choice name="Magenta" value="4294902015" enabled="1" active="1" shortName=""/>
+								<Choice name="Cyan" value="4294967040" enabled="1" active="1" shortName=""/>
+								<Choice name="White" value="4294967295" enabled="1" active="1" shortName=""/>
+							</ParamChoice>
+						</Params>
+					</ColorPalette>
+				</ParamColor>
+				<ParamRange name="Size" default="1" value="1.5758600315126050084">
+					<ValueRange name="defaultRange" min="0.5" max="10"/>
+				</ParamRange>
+				<ParamRange name="Position X" default="0" value="0">
+					<ValueRange name="defaultRange" min="-16384" max="16384"/>
+				</ParamRange>
+				<ParamRange name="Position Y" default="0" value="0">
+					<ValueRange name="defaultRange" min="-16384" max="16384"/>
+				</ParamRange>
+				<ParamChoice name="Alignment" default="0" value="0" storeChoices="0"/>
+				<ParamRange name="Spacing X" default="0" value="0">
+					<ValueRange name="defaultRange" min="-20" max="200"/>
+				</ParamRange>
+				<ParamRange name="Spacing Y" default="0" value="0">
+					<ValueRange name="defaultRange" min="-20" max="200"/>
+				</ParamRange>
+				<Param name="Animated" default="0" value="1"/>
+				<ParamChoice name="Range" default="0" value="1" storeChoices="0"/>
+				<ParamChoice name="Order" default="0" value="0" storeChoices="0"/>
+				<ParamRange name="Delay" default="100" value="100">
+					<ValueRange name="defaultRange" min="0" max="2000"/>
+				</ParamRange>
+				<ParamRange name="Opacity" default="1" value="0">
+					<DurationSource name="DurationSource" defaultDuration="5s" scale="1"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<PhaseSourceTimeline name="PhaseSourceTimeline" globalSpeedEnabled="0">
+						<Params name="Params">
+							<ParamRange name="Beats" default="4" value="4">
+								<ValueRange name="defaultRange" min="0.0078125" max="1048576"/>
+							</ParamRange>
+							<ParamRange name="BPM" default="120" value="120">
+								<ValueRange name="defaultRange" min="20" max="500"/>
+							</ParamRange>
+							<ParamRange name="Speed" default="1" value="4.2209685424634653117">
+								<ValueRange name="defaultRange" min="0" max="10"/>
+							</ParamRange>
+							<ParamChoice name="Syncmode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayDirection" default="1" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayMode" default="0" value="3" storeChoices="0"/>
+							<ParamChoice name="PlayModeAway" default="0" value="0" storeChoices="0"/>
+						</Params>
+						<AdaptiveDuration name="AdaptiveDuration"/>
+						<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+					</PhaseSourceTimeline>
+				</ParamRange>
+				<ParamRange name="Scale" default="1" value="0">
+					<DurationSource name="DurationSource" defaultDuration="5s" scale="0.33301267101990050801"/>
+					<ValueRange name="defaultRange" min="0" max="10"/>
+					<ValueRange name="startStop" min="0" max="3.3301267101990053021"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<PhaseSourceTimeline name="PhaseSourceTimeline" globalSpeedEnabled="0">
+						<Params name="Params">
+							<ParamRange name="Beats" default="4" value="4">
+								<ValueRange name="defaultRange" min="0.0078125" max="1048576"/>
+							</ParamRange>
+							<ParamRange name="BPM" default="120" value="120">
+								<ValueRange name="defaultRange" min="20" max="500"/>
+							</ParamRange>
+							<ParamRange name="Speed" default="1" value="4.2457549193339385596">
+								<ValueRange name="defaultRange" min="0" max="10"/>
+							</ParamRange>
+							<ParamChoice name="Syncmode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayDirection" default="1" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayMode" default="0" value="3" storeChoices="0"/>
+							<ParamChoice name="PlayModeAway" default="0" value="0" storeChoices="0"/>
+						</Params>
+						<AdaptiveDuration name="AdaptiveDuration"/>
+						<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+					</PhaseSourceTimeline>
+				</ParamRange>
+				<ParamRange name="Animated Position X" altName="Position X" default="0" value="0">
+					<ValueRange name="defaultRange" min="-16384" max="16384"/>
+				</ParamRange>
+				<ParamRange name="Animated Position Y" altName="Position Y" default="0" value="0">
+					<ValueRange name="defaultRange" min="-16384" max="16384"/>
+				</ParamRange>
+				<ParamRange name="Rotation" default="0" value="-0.35600565071288237107">
+					<DurationSource name="DurationSource" defaultDuration="5s" scale="0.056660059079601962639"/>
+					<ValueRange name="defaultRange" min="-3.141592653589793116" max="3.141592653589793116"/>
+					<ValueRange name="startStop" min="-0.35600565071288237107" max="0"/>
+					<BehaviourDouble name="BehaviourDouble"/>
+					<PhaseSourceTimeline name="PhaseSourceTimeline" globalSpeedEnabled="0">
+						<Params name="Params">
+							<ParamRange name="Beats" default="4" value="4">
+								<ValueRange name="defaultRange" min="0.0078125" max="1048576"/>
+							</ParamRange>
+							<ParamRange name="BPM" default="120" value="120">
+								<ValueRange name="defaultRange" min="20" max="500"/>
+							</ParamRange>
+							<ParamRange name="Speed" default="1" value="1.5014868797502378683">
+								<ValueRange name="defaultRange" min="0" max="10"/>
+							</ParamRange>
+							<ParamChoice name="Syncmode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayDirection" default="1" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayMode" default="0" value="3" storeChoices="0"/>
+							<ParamChoice name="PlayModeAway" default="0" value="0" storeChoices="0"/>
+						</Params>
+						<AdaptiveDuration name="AdaptiveDuration"/>
+						<Beats_d name="Beats_d" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+					</PhaseSourceTimeline>
+				</ParamRange>
+				<ParamRange name="Anchor X" default="0" value="0">
+					<ValueRange name="defaultRange" min="-16384" max="16384"/>
+				</ParamRange>
+				<ParamRange name="Anchor Y" default="0" value="0">
+					<ValueRange name="defaultRange" min="-16384" max="16384"/>
+				</ParamRange>
+			</Params>
+		</RenderPass>
+	</VideoSource>
+</Preset>
+

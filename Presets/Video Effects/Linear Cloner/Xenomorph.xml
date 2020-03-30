@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="Xenomorph" uniqueId="9611534302831352414" className="LinearCloner" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<RenderPass storage="0" name="LinearCloner" type="DryWetEffect" uniqueId="9611534302831352414" baseType="DryWetEffect">
+		<Params name="Params">
+			<Param name="Bypassed" default="0" value="0"/>
+			<ParamRange name="Opacity" default="1" value="1">
+				<BehaviourDouble name="BehaviourDouble">
+					<PhaseSourceStatic name="PhaseSourceStatic"/>
+				</BehaviourDouble>
+			</ParamRange>
+		</Params>
+		<View name="View"/>
+		<RenderPass name="LinearCloner" type="LinearCloner" uniqueId="9611534302831352414" baseType="Effect" dwType="Effect">
+			<Params name="Params">
+				<Param name="Bypassed" default="0" value="0"/>
+				<ParamRange name="Clones" default="25" value="40">
+					<ValueRange name="defaultRange" min="1" max="50"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Tails" default="2" value="4">
+					<ValueRange name="defaultRange" min="1" max="8"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Center" default="0" value="0">
+					<ValueRange name="defaultRange" min="-1" max="1"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Tail Length" default="0.5" value="-0.14589402575075710589">
+					<DurationSource name="DurationSource" userDuration="16" defaultDuration="4b" scale="0.25738675958188156345"/>
+					<ValueRange name="defaultRange" min="-1" max="1"/>
+					<ValueRange name="startStop" min="-0.25435540069686413123" max="0.26041811846689899568"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<Modifier>
+							<ModifierEnvelope name="ModifierEnvelope" altName="Envelope">
+								<points>
+									<point x="0" y="0" curve="33"/>
+									<point x="0.5" y="1" curve="4"/>
+									<point x="1" y="0" curve="4"/>
+								</points>
+							</ModifierEnvelope>
+						</Modifier>
+					</BehaviourDouble>
+					<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" globalSpeedEnabled="0">
+						<Params name="Params">
+							<ParamRange name="BPM" default="120" value="120">
+								<ValueRange name="defaultRange" min="20" max="500"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Speed" default="1" value="1">
+								<ValueRange name="defaultRange" min="0" max="10"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamChoice name="Syncmode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayDirection" default="1" value="2" storeChoices="0"/>
+							<ParamChoice name="PlayMode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayModeAway" default="0" value="0" storeChoices="0"/>
+							<Param name="DurationIsScalable" value="0"/>
+						</Params>
+						<AdaptiveDuration name="AdaptiveDuration"/>
+						<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+					</PhaseSourceTransportTimeline>
+				</ParamRange>
+				<ParamRange name="Start Scale" default="50" value="50">
+					<ValueRange name="defaultRange" min="0" max="100"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Start Rotation" default="0" value="0">
+					<ValueRange name="defaultRange" min="-180" max="180"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="End Scale" default="0" value="0">
+					<ValueRange name="defaultRange" min="0" max="100"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="End Rotation" default="90" value="0">
+					<ValueRange name="defaultRange" min="0" max="360"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Distribution" default="50" value="50">
+					<ValueRange name="defaultRange" min="0" max="100"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Distortion" default="45" value="-100">
+					<ValueRange name="defaultRange" min="-100" max="100"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<Param name="Reverse" default="0" value="0"/>
+				<ParamRange name="Tail Rotation" default="0" value="0">
+					<ValueRange name="defaultRange" min="0" max="100"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Master Rotation" default="0" value="-52.074491473427052313">
+					<DurationSource name="DurationSource" userDuration="16" defaultDuration="4b" scale="0.5"/>
+					<ValueRange name="defaultRange" min="-180" max="180"/>
+					<ValueRange name="startStop" min="-90" max="90"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<Modifier>
+							<ModifierEnvelope name="ModifierEnvelope" altName="Envelope">
+								<points>
+									<point x="0" y="0" curve="33"/>
+									<point x="0.5" y="1" curve="4"/>
+									<point x="1" y="0" curve="4"/>
+								</points>
+							</ModifierEnvelope>
+						</Modifier>
+					</BehaviourDouble>
+					<PhaseSourceTransportTimeline name="PhaseSourceTransportTimeline" globalSpeedEnabled="0">
+						<Params name="Params">
+							<ParamRange name="BPM" default="120" value="120">
+								<ValueRange name="defaultRange" min="20" max="500"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Speed" default="1" value="1">
+								<ValueRange name="defaultRange" min="0" max="10"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamChoice name="Syncmode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayDirection" default="1" value="2" storeChoices="0"/>
+							<ParamChoice name="PlayMode" default="0" value="0" storeChoices="0"/>
+							<ParamChoice name="PlayModeAway" default="0" value="0" storeChoices="0"/>
+							<Param name="DurationIsScalable" value="0"/>
+						</Params>
+						<AdaptiveDuration name="AdaptiveDuration"/>
+						<Beats_double name="Beats_double" mode="0" numDetectedBeats="-1" numManualBeats="4" detectedTempo="-1" manualTempo="120" detected="0"/>
+					</PhaseSourceTransportTimeline>
+				</ParamRange>
+			</Params>
+		</RenderPass>
+		<ChoosableMixer name="Mixer">
+			<Params name="Params">
+				<ParamChoice name="Blend Mode" default="67464115" value="67464115" storeChoices="0"/>
+			</Params>
+			<RenderPass name="Alpha" type="Alpha" uniqueId="A006" baseType="Mixer">
+				<Params name="Params">
+					<Param name="Bypassed" default="0" value="0"/>
+					<ParamRange name="Opacity" default="1" value="1">
+						<BehaviourDouble name="BehaviourDouble">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+						</BehaviourDouble>
+					</ParamRange>
+				</Params>
+			</RenderPass>
+		</ChoosableMixer>
+	</RenderPass>
+</Preset>
+
