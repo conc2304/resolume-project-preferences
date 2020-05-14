@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Preset name="Chaos" uniqueId="A183" className="TwitchEffect" default="0">
-	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+<Preset name="Chaos" uniqueId="A184" className="TwitchMixer" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
 	<RenderPass name="TwitchEffect" type="DryWetEffect" uniqueId="A183" baseType="DryWetEffect">
 		<Params name="Params">
 			<Param name="Bypassed" default="0" value="0"/>

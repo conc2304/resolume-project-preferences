@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MidiShortcutPreset name="Nano Kontrol 2" presetId="-1288392303">
-	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
 	<ShortcutManager name="MIDIShortcutManagerShortcuts">
 		<Shortcut name="Shortcut" uniqueId="1561370241315" paramNodeName="" behaviour="1032">
 			<ShortcutPath name="InputPath" path="/composition/selectedlayer/connectnextclip" translationType="8" allowedTranslationTypes="11"/>

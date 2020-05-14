@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset name="45 Degree Pan" uniqueId="P201" className="Lines" default="0">
-	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
 	<VideoSource storage="0" name="VideoSource" width="1280" height="720" type="GeneratorVideoSource">
 		<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueId="RenderPassChain" baseType="RenderPassChain">
 			<Params name="Params">

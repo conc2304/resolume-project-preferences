@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <OscController>
-	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
-	<Input Enabled="0" Port="7000"/>
-	<Output enabled="0" sendBundles="0" targetType="2" targetPort="7001" targetAddress="127.0.0.1"/>
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
+	<Input Enabled="1" Port="8000"/>
+	<Output enabled="1" sendBundles="0" targetType="4" targetPort="9000" targetAddress="10.0l0.243"/>
 </OscController>
 

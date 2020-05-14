@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MidiShortcutPreset name="APC MINI" presetId="-1870469488">
-	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
 	<ShortcutManager name="MIDIShortcutManagerShortcuts">
 		<Shortcut name="Shortcut" behaviour="1028">
 			<ShortcutPath name="InputPath" path="/composition/layers/1/connectnextclip" translationType="1" allowedTranslationTypes="11"/>

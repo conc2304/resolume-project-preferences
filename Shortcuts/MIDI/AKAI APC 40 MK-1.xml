@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MidiShortcutPreset name="AKAI APC 40 MK-1" presetId="-352398701">
-	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
 	<ShortcutManager name="MIDIShortcutManagerShortcuts">
 		<Shortcut name="Shortcut" uniqueId="1584490530123" paramNodeName="ParamEvent" behaviour="1028" inputDeviceName="Akai APC40" outputDeviceName="Akai APC40">
 			<ShortcutPath name="InputPath" path="/composition/layers/6/clips/6/connect" translationType="1" allowedTranslationTypes="11"/>

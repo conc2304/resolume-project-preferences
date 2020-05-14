@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <midiController enabled="1" midiClockMode="-1" octaveNumForMiddleC="4" syncDeviceName="">
-	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
 	<inputDevices>
 		<device name="Akai APC40"/>
 		<device name="LPD8"/>
 		<device name="MPD218 Port A"/>
+		<device name="Launch Control XL"/>
 	</inputDevices>
 	<outputDevices>
 		<device name="Akai APC40"/>
 		<device name="LPD8"/>
 		<device name="MPD218 Port A"/>
+		<device name="Launch Control XL"/>
 	</outputDevices>
 	<controlSurfaces>
 		<device port="Akai APC40" name="Akai APC40" option="3"/>

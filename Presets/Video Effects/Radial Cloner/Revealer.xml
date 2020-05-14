@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset name="Revealer" uniqueId="15777305184926876320" className="RadialCloner" default="0">
-	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
 	<RenderPass storage="0" name="RadialCloner" type="DryWetEffect" uniqueId="15777305184926876320" baseType="DryWetEffect">
 		<Params name="Params">
 			<Param name="Bypassed" default="0" value="0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ShortcutPresetManager name="ShortcutPresetManager" DMXShortcutPreset="747384493" KeyboardShortcutPreset="747384485" MidiShortcutPreset="747384486" OSCShortcutPreset="747384492">
-	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
+<ShortcutPresetManager name="ShortcutPresetManager" KeyboardShortcutPreset="274934723" MidiShortcutPreset="274934724" OSCShortcutPreset="274934730">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
 </ShortcutPresetManager>
 

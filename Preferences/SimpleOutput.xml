@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SimpleSetup advancedModeEnabled="0">
-	<Outputs/>
+	<Outputs>
+		<OutputDeviceNDI name="Composition" deviceId="NDIComposition" idHash="5503692935249019631" width="1920" height="1080"/>
+		<OutputDeviceDisplay name="Display 2" deviceId="Display 2" idHash="747723244312493408" fullscreen="1" width="1920" height="1080"/>
+	</Outputs>
 </SimpleSetup>
 

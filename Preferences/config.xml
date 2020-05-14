@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Avenue>
-	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="1" revision="68159"/>
-	<Application name="Application" recentCompositions="/Users/joseconchello/Documents/Resolume Avenue/Compositions/jc test - no effect layer 2.avc
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
+	<Application name="Application" recentCompositions="/Users/joseconchello/Documents/Resolume Avenue/Compositions/Medicine - May 2020.avc
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/RESET - April 2020.avc
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/JC - All effects on one controller.avc
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/LSDQ3-POST.avc
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/LSDQ3.avc
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/jc test - no effect layer 2.avc
 /Users/joseconchello/Documents/Resolume Avenue/Compositions/jc test - no effect layer.avc
 /Users/joseconchello/Documents/Resolume Avenue/Compositions/jc test.avc
 /Users/joseconchello/Documents/Resolume Avenue/Compositions/playing around v2.avc
@@ -9,7 +14,7 @@
 /Users/joseconchello/Documents/Resolume Avenue/Compositions/Example.avc" fileBrowserFavourites="/Users/joseconchello/Desktop/Documents/Visual Designs/vj_clips/DXV3
 /Users/joseconchello/Desktop/Documents/Visual Designs/vj_clips">
 		<Params name="Settings">
-			<Param name="CurrentCompositionFile" T="STRING" default="/Applications/Resolume Avenue/default/Example.avc" value="/Users/joseconchello/Documents/Resolume Avenue/Compositions/jc test - no effect layer 2.avc"/>
+			<Param name="CurrentCompositionFile" T="STRING" default="/Applications/Resolume Avenue/default/Example.avc" value="/Users/joseconchello/Documents/Resolume Avenue/Compositions/Medicine - May 2020.avc"/>
 			<ParamRange name="DefaultCompositionWidth" T="DOUBLE" default="1920" value="1920">
 				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.019190191901919020911"/>
 			</ParamRange>
@@ -19,6 +24,7 @@
 			<Param name="DefaultDeckCount" T="UINT32" default="3" value="3"/>
 			<Param name="DefaultLayerCount" T="UINT32" default="3" value="3"/>
 			<Param name="DefaultColumnCount" T="UINT32" default="9" value="9"/>
+			<Param name="RecordAudio" T="BOOL" default="0" value="1"/>
 			<ParamChoice name="Texture Path" default="TUP_DMA" value="TUP_DMA" storeChoices="0"/>
 			<Param name="LastFileBrowserDirectory" T="FILE" default="/" value="/Users/joseconchello/Desktop/Documents/Visual Designs/vj_clips/DXV3"/>
 		</Params>
@@ -31,8 +37,8 @@
 					<Param name="FFT Input" T="UINT64" default="0" value="1"/>
 				</Params>
 				<Params name="Params">
-					<ParamRange name="FFTInputGain" T="DOUBLE" default="0" value="15.954000000000007731">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.83237500000000019806"/>
+					<ParamRange name="FFTInputGain" T="DOUBLE" default="0" value="2.9707499999999988916">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.56189062499999997691"/>
 					</ParamRange>
 				</Params>
 			</AudioDeviceManagerSettings>

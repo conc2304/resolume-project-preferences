@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="Step BMP" uniqueId="MOD_ENVELOPE" className="Envelope" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
+	<ModifierEnvelope name="ModifierEnvelope" altName="Envelope" uniqueId="1585614387843">
+		<points>
+			<point x="0" y="0" curve="33"/>
+			<point x="0.29069767441860455692" y="0.4033613445378150808" curve="33"/>
+			<point x="0.52209302325581397053" y="0.72268907563025208685" curve="33"/>
+			<point x="1" y="1" curve="33"/>
+		</points>
+	</ModifierEnvelope>
+</Preset>
+
