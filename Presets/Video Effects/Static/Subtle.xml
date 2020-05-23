@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Preset name="Subtle" uniqueId="MSTS" className="StaticGenerator" default="0">
+<Preset name="Subtle" uniqueId="A037" className="StaticMixer" default="0">
 	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
 	<RenderPass name="StaticEffect" type="DryWetEffect" uniqueId="MSTF" baseType="DryWetEffect">
 		<Params name="Params">

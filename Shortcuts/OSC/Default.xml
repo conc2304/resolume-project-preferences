@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<OSCShortcutPreset name="Default" presetId="274937472">
+<OSCShortcutPreset name="Default" presetId="1071033590">
 	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
 	<ShortcutManager name="OSCShortcutManagerShortcuts">
 		<Shortcut name="Shortcut" uniqueId="1586198416504" paramNodeName="ParamRange" behaviour="26" hasCustomOutputPath="0">

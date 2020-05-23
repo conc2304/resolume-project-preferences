@@ -36,7 +36,7 @@
 	</Params>
 	<Structure>
 		<FlexContainer name="FlexContainer" panel_id="51" unhide_panel_id="-1" unhide_target_index="-1" removable="0" visible="1" width_min_type="2" width_max_type="2" width_desired_type="2" width_min="0" width_max="0" width_desired="0" height_min_type="2" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="0" type="0">
-			<FlexContainer name="FlexContainer" panel_id="111" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="2" width_min="0" width_max="0" width_desired="0" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="1" type="0">
+			<FlexContainer name="FlexContainer" panel_id="111" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="0" width_max="0" width_desired="290" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="1" type="0">
 				<TabbedContainer name="TabbedContainer" panel_id="112" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="200" width_max="0" width_desired="200" height_min_type="0" height_max_type="2" height_desired_type="0" height_min="200" height_max="0" height_desired="200" orientation="1" type="1">
 					<Composition name="Composition" panel_id="-1" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="0" width_desired_type="0" width_min="200" width_max="10000" width_desired="200" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="200" height_max="10000" height_desired="200" type="3" content_type="3"/>
 				</TabbedContainer>
@@ -48,11 +48,12 @@
 					</FlexContainer>
 				</FlexContainer>
 			</FlexContainer>
-			<FlexContainer name="FlexContainer" panel_id="99" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="0" width_max="0" width_desired="392" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="1" type="0">
+			<FlexContainer name="FlexContainer" panel_id="99" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="0" width_max="0" width_desired="290" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="1" type="0">
 				<FlexContainer name="FlexContainer" panel_id="109" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="2" width_min="0" width_max="0" width_desired="0" height_min_type="0" height_max_type="2" height_desired_type="0" height_min="0" height_max="0" height_desired="732" orientation="0" type="0">
 					<FlexContainer name="FlexContainer" panel_id="110" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="2" width_min="0" width_max="0" width_desired="0" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="1" type="0">
 						<TabbedContainer name="TabbedContainer" panel_id="111" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="200" width_max="0" width_desired="200" height_min_type="0" height_max_type="2" height_desired_type="0" height_min="200" height_max="0" height_desired="325" orientation="1" type="1">
 							<Clip name="Clip" panel_id="-1" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="0" width_desired_type="0" width_min="200" width_max="10000" width_desired="200" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="200" height_max="10000" height_desired="200" type="3" content_type="2"/>
+							<Layer name="Layer" panel_id="-1" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="0" width_desired_type="0" width_min="200" width_max="10000" width_desired="200" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="200" height_max="10000" height_desired="200" type="3" content_type="1"/>
 						</TabbedContainer>
 					</FlexContainer>
 				</FlexContainer>
@@ -64,19 +65,14 @@
 					</FlexContainer>
 				</FlexContainer>
 			</FlexContainer>
-			<FlexContainer name="FlexContainer" panel_id="109" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="0" width_max="0" width_desired="356" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="1" type="0">
-				<TabbedContainer name="TabbedContainer" panel_id="110" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="200" width_max="0" width_desired="200" height_min_type="0" height_max_type="2" height_desired_type="0" height_min="200" height_max="0" height_desired="200" orientation="1" type="1">
-					<Layer name="Layer" panel_id="-1" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="0" width_desired_type="0" width_min="200" width_max="10000" width_desired="200" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="200" height_max="10000" height_desired="200" type="3" content_type="1"/>
-				</TabbedContainer>
-			</FlexContainer>
-			<FlexContainer name="FlexContainer" panel_id="50" unhide_panel_id="-1" unhide_target_index="-1" removable="0" visible="1" width_min_type="2" width_max_type="2" width_desired_type="0" width_min="0" width_max="0" width_desired="844" height_min_type="2" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="1" type="0">
-				<FlexContainer name="FlexContainer" panel_id="52" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="2" width_max_type="2" width_desired_type="2" width_min="0" width_max="0" width_desired="0" height_min_type="2" height_max_type="2" height_desired_type="0" height_min="0" height_max="0" height_desired="678" orientation="0" type="0">
+			<FlexContainer name="FlexContainer" panel_id="50" unhide_panel_id="-1" unhide_target_index="-1" removable="0" visible="1" width_min_type="2" width_max_type="2" width_desired_type="0" width_min="0" width_max="0" width_desired="1093" height_min_type="2" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="1" type="0">
+				<FlexContainer name="FlexContainer" panel_id="52" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="2" width_max_type="2" width_desired_type="2" width_min="0" width_max="0" width_desired="0" height_min_type="2" height_max_type="2" height_desired_type="0" height_min="0" height_max="0" height_desired="635" orientation="0" type="0">
 					<FlexContainer name="FlexContainer" panel_id="80" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="2" width_min="0" width_max="0" width_desired="0" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="1" type="0">
-						<LayersAndClips name="LayersAndClips" panel_id="14" unhide_panel_id="-1" unhide_target_index="-1" removable="0" visible="1" width_min_type="0" width_max_type="2" width_desired_type="2" width_min="300" width_max="0" width_desired="0" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="152" height_max="701" height_desired="318" type="3" content_type="14"/>
+						<LayersAndClips name="LayersAndClips" panel_id="14" unhide_panel_id="-1" unhide_target_index="-1" removable="0" visible="1" width_min_type="0" width_max_type="2" width_desired_type="2" width_min="300" width_max="0" width_desired="0" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="152" height_max="792" height_desired="318" type="3" content_type="14"/>
 					</FlexContainer>
 				</FlexContainer>
 				<Toolbar name="Toolbar" panel_id="15" unhide_panel_id="-1" unhide_target_index="-1" removable="0" visible="1" width_min_type="0" width_max_type="2" width_desired_type="2" width_min="730" width_max="0" width_desired="0" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="36" height_max="36" height_desired="36" type="3" content_type="15"/>
-				<FlexContainer name="FlexContainer" panel_id="53" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="2" width_max_type="2" width_desired_type="2" width_min="0" width_max="0" width_desired="0" height_min_type="2" height_max_type="2" height_desired_type="0" height_min="0" height_max="0" height_desired="304" orientation="0" type="0">
+				<FlexContainer name="FlexContainer" panel_id="53" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="2" width_max_type="2" width_desired_type="2" width_min="0" width_max="0" width_desired="0" height_min_type="2" height_max_type="2" height_desired_type="0" height_min="0" height_max="0" height_desired="347" orientation="0" type="0">
 					<FlexContainer name="FlexContainer" panel_id="84" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="0" width_max="0" width_desired="448" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="0" height_max="0" height_desired="0" orientation="1" type="0">
 						<TabbedContainer name="TabbedContainer" panel_id="79" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="0" width_min="200" width_max="0" width_desired="200" height_min_type="0" height_max_type="2" height_desired_type="0" height_min="200" height_max="0" height_desired="200" orientation="1" type="1">
 							<Files name="Files" panel_id="-1" unhide_panel_id="-1" unhide_target_index="-1" removable="1" visible="1" width_min_type="0" width_max_type="0" width_desired_type="0" width_min="200" width_max="10000" width_desired="200" height_min_type="0" height_max_type="0" height_desired_type="0" height_min="200" height_max="10000" height_desired="200" type="3" content_type="6"/>
@@ -89,7 +85,7 @@
 		</FlexContainer>
 	</Structure>
 	<HiddenPanels>
-		<Shortcuts name="Shortcuts" panel_id="5" unhide_panel_id="110" unhide_target_index="1" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="2" width_min="290" width_max="0" width_desired="0" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="290" height_max="0" height_desired="0" type="3" content_type="5"/>
+		<Shortcuts name="Shortcuts" panel_id="5" unhide_panel_id="51" unhide_target_index="2" removable="1" visible="1" width_min_type="0" width_max_type="2" width_desired_type="2" width_min="290" width_max="0" width_desired="0" height_min_type="0" height_max_type="2" height_desired_type="2" height_min="290" height_max="0" height_desired="0" type="3" content_type="5"/>
 	</HiddenPanels>
 	<FoldStates>
 		<EffectListsPanelComponent name="EffectListsPanelComponent">
@@ -97,8 +93,11 @@
 				<foldState>
 					<OPEN id="root">
 						<CLOSED id="A105"/>
+						<CLOSED id="A191"/>
+						<CLOSED id="15777305184926876320"/>
 						<CLOSED id="sy05"/>
-						<SELECTED id="/root/sy06"/>
+						<CLOSED id="MBSH"/>
+						<CLOSED id="A153"/>
 					</OPEN>
 				</foldState>
 			</RenderPassListComponent>
