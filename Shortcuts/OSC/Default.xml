@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<OSCShortcutPreset name="Default" presetId="1071033590">
-	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
+<OSCShortcutPreset name="Default" presetId="120235294">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="2" microVersion="1" revision="70674"/>
 	<ShortcutManager name="OSCShortcutManagerShortcuts">
 		<Shortcut name="Shortcut" uniqueId="1586198416504" paramNodeName="ParamRange" behaviour="26" hasCustomOutputPath="0">
 			<ShortcutPath name="InputPath" path="/composition/layers/5/clips/1/video/effects/bendoscope/opacity" translationType="1" allowedTranslationTypes="7"/>

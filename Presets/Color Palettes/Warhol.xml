@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset name="Warhol" uniqueId="PARAM_SPACE_COLOR_PALETTE" className="ColorPalette" default="0">
-	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="2" microVersion="1" revision="70674"/>
 	<ColorPalette name="ColorPalette">
 		<Params name="Params">
 			<ParamChoice name="Colors" default="4278190335" value="4285279550" storeChoices="1">

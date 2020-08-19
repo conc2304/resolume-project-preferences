@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset name="BouncingSquares" uniqueId="sy88" className="VideoWall" default="0">
-	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="2" microVersion="1" revision="70674"/>
 	<RenderPass name="VideoWall" type="DryWetEffect" uniqueId="sy88" baseType="DryWetEffect">
 		<Params name="Params">
 			<Param name="Bypassed" default="0" value="0"/>

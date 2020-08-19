@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preset name="Shake" uniqueId="sy08" className="Fragment" default="0">
-	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="2" microVersion="1" revision="70674"/>
 	<RenderPass storage="0" name="Fragment" type="DryWetEffect" uniqueId="sy08" baseType="DryWetEffect">
 		<Params name="Params">
 			<Param name="Bypassed" altName="Bypass" default="0" value="0"/>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset name="Long Hold" uniqueId="MOD_ENVELOPE" className="Envelope" default="0">
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="2" microVersion="1" revision="70674"/>
+	<ModifierEnvelope name="ModifierEnvelope" altName="Envelope" uniqueId="1594467590219">
+		<points>
+			<point x="0" y="0" curve="33"/>
+			<point x="0.12164948453608247225" y="0" curve="1"/>
+			<point x="0.38694709005640137711" y="1" curve="13"/>
+			<point x="0.59380203706381817774" y="1" curve="1"/>
+			<point x="0.87628865979381442841" y="0" curve="13"/>
+			<point x="1" y="0" curve="1"/>
+		</points>
+	</ModifierEnvelope>
+</Preset>
+

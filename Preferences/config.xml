@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Avenue>
-	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="1" microVersion="2" revision="68793"/>
-	<Application name="Application" recentCompositions="/Users/joseconchello/Documents/Resolume Avenue/Compositions/Fave Test - May 2020.avc
+	<versionInfo name="Resolume Avenue" majorVersion="7" minorVersion="2" microVersion="1" revision="70674"/>
+	<Application name="Application" recentCompositions="/Users/joseconchello/Documents/Resolume Avenue/Compositions/THE ONE.avc
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/Tribal 2- May 2020.avc
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/Bruno.avc
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/AutoPilot.avc
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/Tribal JC - May 2020.avc
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/Tribal- May 2020.avc
 /Users/joseconchello/Documents/Resolume Avenue/Compositions/Food- May 2020.avc
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/Fave Test - May 2020.avc
 /Users/joseconchello/Documents/Resolume Avenue/Compositions/Medicine - May 2020.avc
 /Users/joseconchello/Documents/Resolume Avenue/Compositions/RESET - April 2020.avc
 /Users/joseconchello/Documents/Resolume Avenue/Compositions/JC - All effects on one controller.avc
 /Users/joseconchello/Documents/Resolume Avenue/Compositions/LSDQ3-POST.avc
 /Users/joseconchello/Documents/Resolume Avenue/Compositions/LSDQ3.avc
 /Users/joseconchello/Documents/Resolume Avenue/Compositions/jc test - no effect layer 2.avc
-/Users/joseconchello/Documents/Resolume Avenue/Compositions/jc test - no effect layer.avc
-/Users/joseconchello/Documents/Resolume Avenue/Compositions/jc test.avc
-/Users/joseconchello/Documents/Resolume Avenue/Compositions/playing around v2.avc
-/Users/joseconchello/Desktop/Documents/Resolume Avenue/Compositions/playing around.avc
-/Users/joseconchello/Documents/Resolume Avenue/Compositions/Example.avc" fileBrowserFavourites="/Volumes/Charles 1T Media Storage/VJ Clips
+/Users/joseconchello/Documents/Resolume Avenue/Compositions/jc test - no effect layer.avc" fileBrowserFavourites="/
+/Volumes/Charles 1T Media Storage/VJ Clips
 /Users/joseconchello/Desktop/Documents/Visual Designs/vj_clips/DXV3
 /Users/joseconchello/Desktop/Documents/Visual Designs/vj_clips">
 		<Params name="Settings">
-			<Param name="CurrentCompositionFile" T="STRING" default="/Applications/Resolume Avenue/default/Example.avc" value="/Users/joseconchello/Documents/Resolume Avenue/Compositions/Fave Test - May 2020.avc"/>
+			<Param name="CurrentCompositionFile" T="STRING" default="/Applications/Resolume Avenue/default/Example.avc" value="/Users/joseconchello/Documents/Resolume Avenue/Compositions/THE ONE.avc"/>
 			<ParamRange name="DefaultCompositionWidth" T="DOUBLE" default="1920" value="1920">
 				<PhaseSourceStatic name="PhaseSourceStatic" phase="0.019190191901919020911"/>
 			</ParamRange>
@@ -30,22 +33,29 @@
 			<Param name="RecordAudio" T="BOOL" default="0" value="1"/>
 			<ParamChoice name="Texture Path" default="TUP_DMA" value="TUP_DMA" storeChoices="0"/>
 		</Params>
+		<RecordSettings>
+			<Conversion name="Conversion" Name="DXV 3 Normal Quality No Alpha" Codec="Motion JPEG" Format="Normal Quality" AutoSize="Fit" CustomSize="0" AudioEnabled="1" SampleRate="44100" BitDepth="16">
+				<OutputPath Type="2" Path="/Users/joseconchello/Documents/Resolume Avenue/Recorded"/>
+			</Conversion>
+		</RecordSettings>
+		<RenderSettings>
+			<Conversion name="Conversion" Name="DXV 3 Normal Quality No Alpha" Codec="DXV 3" Format="Normal Quality, With Alpha" AutoSize="Fit" CustomSize="0" AudioEnabled="1" SampleRate="44100" BitDepth="16">
+				<OutputPath Type="2" Path="/Users/joseconchello/Documents/Resolume Avenue/Renders"/>
+			</Conversion>
+		</RenderSettings>
 	</Application>
 	<VideoEngine name="VideoEngine"/>
 	<AudioEngine name="AudioEngine">
 		<AudioDeviceManager name="AudioDeviceManager">
 			<AudioDeviceManagerSettings name="AudioDeviceManagerSettings" channelsUseBitmask="1">
-				<Params name="Settings">
-					<Param name="FFT Input" T="UINT64" default="0" value="1"/>
-				</Params>
 				<Params name="Params">
-					<ParamRange name="FFTInputGain" T="DOUBLE" default="0" value="-24">
-						<PhaseSourceStatic name="PhaseSourceStatic" phase="0"/>
+					<ParamRange name="FFTInputGain" T="DOUBLE" default="0" value="7.3365000000000009095">
+						<PhaseSourceStatic name="PhaseSourceStatic" phase="0.65284375000000005596"/>
 					</ParamRange>
 				</Params>
 			</AudioDeviceManagerSettings>
 			<AudioDeviceSettings>
-				<DEVICESETUP deviceType="CoreAudio" audioOutputDeviceName="DisplayPort" audioInputDeviceName="MacBook Pro Microphone" audioDeviceRate="48000" audioDeviceInChans="1" audioDeviceOutChans="11"/>
+				<DEVICESETUP deviceType="CoreAudio" audioOutputDeviceName="MacBook Pro Speakers" audioInputDeviceName="" audioDeviceRate="44100.0" audioDeviceInChans="0" audioDeviceOutChans="11"/>
 			</AudioDeviceSettings>
 		</AudioDeviceManager>
 		<AudioPluginManager name="AudioPluginManager"/>
